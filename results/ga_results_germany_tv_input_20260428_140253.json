@@ -1,0 +1,69 @@
+{
+  "parameters": {
+    "POP_SIZE": 10,
+    "GENERATIONS": 30,
+    "CROSSOVER_RATE": 0.8,
+    "MUTATION_RATE": 0.15,
+    "TOURNAMENT_SIZE": 2,
+    "ELITISM": 1
+  },
+  "runs": [
+    {
+      "run": 1,
+      "score": 1553,
+      "time_seconds": 0.2316277027130127
+    },
+    {
+      "run": 2,
+      "score": 1553,
+      "time_seconds": 0.2180476188659668
+    },
+    {
+      "run": 3,
+      "score": 1553,
+      "time_seconds": 0.23125958442687988
+    },
+    {
+      "run": 4,
+      "score": 1553,
+      "time_seconds": 0.252699613571167
+    },
+    {
+      "run": 5,
+      "score": 1553,
+      "time_seconds": 0.23801469802856445
+    },
+    {
+      "run": 6,
+      "score": 1553,
+      "time_seconds": 0.24222898483276367
+    },
+    {
+      "run": 7,
+      "score": 1553,
+      "time_seconds": 0.2446298599243164
+    },
+    {
+      "run": 8,
+      "score": 1553,
+      "time_seconds": 0.2339022159576416
+    },
+    {
+      "run": 9,
+      "score": 1553,
+      "time_seconds": 0.22201061248779297
+    },
+    {
+      "run": 10,
+      "score": 1553,
+      "time_seconds": 0.2343916893005371
+    }
+  ],
+  "statistics": {
+    "best": 1553,
+    "worst": 1553,
+    "average": 1553.0,
+    "std_dev": 0.0,
+    "total_time": 2.3488125801086426
+  }
+}

@@ -1,0 +1,112 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "nsw_sydneyfoxsport_gameday_live_4_1_26_2026-01-04_0000",
+            "channel_id": 350,
+            "start": 0,
+            "end": 30
+        },
+        {
+            "program_id": "sbsfoodhobart_au_rick_stein_s_mediterrane_2026-01-04_0030",
+            "channel_id": 395,
+            "start": 30,
+            "end": 95
+        },
+        {
+            "program_id": "sbsvicelandadelaid_the_movie_show_2026-01-04_0105",
+            "channel_id": 405,
+            "start": 105,
+            "end": 140
+        },
+        {
+            "program_id": "winpeachtasmania_a_brisbane_international_d_2026-01-04_0120",
+            "channel_id": 485,
+            "start": 140,
+            "end": 480
+        },
+        {
+            "program_id": "winpeachtasmania_a_brisbane_international_d_2026-01-04_0480",
+            "channel_id": 485,
+            "start": 480,
+            "end": 630
+        },
+        {
+            "program_id": "10bolddarwin_au_reel_action_2026-01-04_0631",
+            "channel_id": 2,
+            "start": 631,
+            "end": 661
+        },
+        {
+            "program_id": "10bolddarwin_au_ncis_2026-01-04_0661",
+            "channel_id": 2,
+            "start": 661,
+            "end": 720
+        },
+        {
+            "program_id": "10bolddarwin_au_ncis_2026-01-04_0720",
+            "channel_id": 2,
+            "start": 720,
+            "end": 775
+        },
+        {
+            "program_id": "skynewsaustralia_a_newsnight_2026-01-04_0780",
+            "channel_id": 454,
+            "start": 780,
+            "end": 840
+        },
+        {
+            "program_id": "foxtelmovieshits_a_bulletproof_2026-01-04_0842",
+            "channel_id": 307,
+            "start": 842,
+            "end": 925
+        },
+        {
+            "program_id": "trtworld_au_debrief_2026-01-04_0930",
+            "channel_id": 467,
+            "start": 930,
+            "end": 960
+        },
+        {
+            "program_id": "espnplay30_au_no_match_today_2026-01-04_0840",
+            "channel_id": 215,
+            "start": 960,
+            "end": 1080
+        },
+        {
+            "program_id": "espnplay30_au_no_match_today_2026-01-04_1080",
+            "channel_id": 215,
+            "start": 1080,
+            "end": 1115
+        },
+        {
+            "program_id": "winpeachhobart_au_wild_manes_2026-01-04_1120",
+            "channel_id": 484,
+            "start": 1120,
+            "end": 1150
+        },
+        {
+            "program_id": "britishcinema_au_mr_turner_2026-01-04_1150",
+            "channel_id": 152,
+            "start": 1150,
+            "end": 1180
+        },
+        {
+            "program_id": "crime_au_ncis_2026-01-04_1180",
+            "channel_id": 180,
+            "start": 1180,
+            "end": 1210
+        },
+        {
+            "program_id": "10boldbrisbane_au_home_shopping_2026-01-04_1290",
+            "channel_id": 1,
+            "start": 1290,
+            "end": 1320
+        },
+        {
+            "program_id": "10boldbrisbane_au_home_shopping_2026-01-04_1320",
+            "channel_id": 1,
+            "start": 1320,
+            "end": 1350
+        }
+    ]
+}

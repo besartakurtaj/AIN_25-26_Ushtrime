@@ -5,13 +5,14 @@ from scheduler.beam_search_scheduler import BeamSearchScheduler
 from scheduler.greedy_lookahead_scheduler import GreedyLookaheadScheduler
 from utils.utils import Utils
 import argparse
+from parser.genetic_algorithm import GeneticScheduler
 
 
 def main():
     parser_arg = argparse.ArgumentParser(description="Run TV scheduling algorithms")
     parser_arg.add_argument("--input", "-i", dest="input_file", help="Path to input JSON (optional)")
     parser_arg.add_argument("--scheduler", "-s", dest="scheduler",
-                            choices=["1", "2"],
+                            choices=["1", "2", "3"],
                             help="Scheduler to use: 1=Beam, 2=GreedyLookahead")
 
     args = parser_arg.parse_args()
@@ -28,15 +29,21 @@ def main():
     print('\nChoose scheduler:')
     print('1: Beam Search')
     print('2: Greedy + Lookahead')
+    print('3: Genetic Algorithm')
 
-    choice = args.scheduler if args.scheduler else input('Select scheduler [1/2] (default 1): ').strip() or '1'
-
+    choice = args.scheduler if args.scheduler else input('Select scheduler [1/2/3] (default 1): ').strip() or '1'
     # Default parameters
     beam_width = 100
     lookahead = 4
     percentile = 25
 
-    if choice == '2':
+    if choice == '3':
+        print("\nRunning Genetic Algorithm Scheduler...")
+        scheduler = GeneticScheduler(
+            instance_data=instance,
+            verbose=True
+        )
+    elif choice == '2':
         print("\nRunning Greedy + Lookahead Scheduler...")
         scheduler = GreedyLookaheadScheduler(
             instance_data=instance,
@@ -54,7 +61,20 @@ def main():
             verbose=False
         )
 
-    solution = scheduler.generate_solution()
+    #solution = scheduler.generate_solution()
+
+    import time
+
+    best_solution = None
+
+    for i in range(10):
+        print(f"\nRun {i+1}/10...")
+        sol = scheduler.generate_solution()
+
+        if best_solution is None or sol.total_score > best_solution.total_score:
+            best_solution = sol
+
+    solution = best_solution
 
     print(f"\n Generated solution with total score: {solution.total_score}")
 

@@ -1,0 +1,64 @@
+{
+  "description": "Genetic Algorithm Parameter Configurations for Experiments",
+  
+  "experiment_1_small_pop": {
+    "name": "Small Population",
+    "description": "Small population for quick convergence",
+    "params": {
+      "POP_SIZE": 5,
+      "GENERATIONS": 30,
+      "CROSSOVER_RATE": 0.8,
+      "MUTATION_RATE": 0.15,
+      "TOURNAMENT_SIZE": 2,
+      "ELITISM": 1
+    }
+  },
+
+  "experiment_2_medium_pop": {
+    "name": "Medium Population",
+    "description": "Balanced population size and generations",
+    "params": {
+      "POP_SIZE": 10,
+      "GENERATIONS": 30,
+      "CROSSOVER_RATE": 0.8,
+      "MUTATION_RATE": 0.15,
+      "TOURNAMENT_SIZE": 2,
+      "ELITISM": 1
+    }
+  },
+
+  "experiment_3_large_pop": {
+    "name": "Large Population",
+    "description": "Larger population with more diversity",
+    "params": {
+      "POP_SIZE": 20,
+      "GENERATIONS": 20,
+      "CROSSOVER_RATE": 0.8,
+      "MUTATION_RATE": 0.15,
+      "TOURNAMENT_SIZE": 3,
+      "ELITISM": 2
+    }
+  },
+
+  "experiment_4_high_mutation": {
+    "name": "High Mutation Rate",
+    "description": "More exploration with higher mutation rate",
+    "params": {
+      "POP_SIZE": 10,
+      "GENERATIONS": 30,
+      "CROSSOVER_RATE": 0.7,
+      "MUTATION_RATE": 0.3,
+      "TOURNAMENT_SIZE": 2,
+      "ELITISM": 1
+    }
+  },
+
+  "parameter_explanation": {
+    "POP_SIZE": "Number of individuals in population. Larger = more diversity but slower.",
+    "GENERATIONS": "Number of generations to evolve. More generations = better convergence but slower.",
+    "CROSSOVER_RATE": "Probability of crossover (0.0-1.0). Higher = more combination of solutions.",
+    "MUTATION_RATE": "Probability of mutation (0.0-1.0). Higher = more exploration, lower = more exploitation.",
+    "TOURNAMENT_SIZE": "Number of competitors in tournament selection. Larger = more selection pressure.",
+    "ELITISM": "Number of best individuals to preserve. Higher = preserve more best solutions."
+  }
+}
