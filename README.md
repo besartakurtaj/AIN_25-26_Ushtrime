@@ -91,7 +91,7 @@ Projekti përdor 4 konfigurimi eksperimentale:
 
 **TIME_LIMIT:** 300 sekonda për çdo run
 
-## Rezultatet e Ekzekutimit Batch (May 4, 2026)
+## Rezultatet e Ekzekutimit Batch 
 
 **Koha Totale e Ekzekutimit:** 39.95 sekonda  
 **Instancat e Testuar:** 17 grupe të dhënash  
