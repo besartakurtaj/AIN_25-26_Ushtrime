@@ -261,8 +261,10 @@ class GeneticScheduler:
         """
         return self._stochastic_fill()
 
-    def generate_solution(self) -> Solution:
-        start = time.time()
+    def generate_solution(self, start_time: float = None) -> Solution:
+        if start_time is None:
+            start_time = time.time()
+    
         population = self._init_population()
         best = max(population, key=self._fitness)
 
@@ -270,13 +272,20 @@ class GeneticScheduler:
             print(f"Initial best: {best.total_score}, avg: {sum(p.total_score for p in population)/len(population):.1f}")
 
         for gen in range(1, self.GENERATIONS + 1):
-            if time.time() - start >= self.TIME_LIMIT:
+            if time.time() - start_time >= self.TIME_LIMIT:  # Use start_time, not start
+                if self.verbose:
+                    print(f"TIME_LIMIT reached at generation {gen}")
                 break
 
             population = sorted(population, key=self._fitness, reverse=True)
             new_population = [deepcopy(ind) for ind in population[: self.ELITISM]]
 
             while len(new_population) < self.POP_SIZE:
+                if time.time() - start_time >= self.TIME_LIMIT:  # Use start_time, not start
+                    if self.verbose:
+                        print(f"TIME_LIMIT reached during offspring creation")
+                    break
+                
                 parent1 = self._select(population)
                 parent2 = self._select(population)
                 child = self._crossover(parent1, parent2)

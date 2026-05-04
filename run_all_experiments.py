@@ -42,7 +42,7 @@ def run_instance(instance_name, config, runs):
     ]
     
     try:
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=600)
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
         return {
             'status': 'success',
             'stdout': result.stdout,
@@ -51,7 +51,7 @@ def run_instance(instance_name, config, runs):
     except subprocess.TimeoutExpired:
         return {
             'status': 'timeout',
-            'stdout': 'Process timed out after 10 minutes',
+            'stdout': 'Process timed out after 5 minutes',
             'stderr': ''
         }
     except Exception as e:

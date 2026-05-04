@@ -92,7 +92,7 @@ def run_genetic_algorithm(instance, num_runs: int, config_name: str | None, verb
 
         start = time.time()
         scheduler = GeneticScheduler(instance_data=instance, verbose=verbose, params=run_params)
-        solution = scheduler.generate_solution()
+        solution = scheduler.generate_solution(start_time=start)
         elapsed = time.time() - start
 
         results.append({"run": run, "score": solution.total_score, "time_seconds": elapsed})

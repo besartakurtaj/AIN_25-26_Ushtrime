@@ -59,3 +59,99 @@ Për të ekzekutuar projektin dhe për të gjeneruar orarin optimal, ndiqni hapa
 5.  Shkruani numrin e indeksit që korrespondon me fajllin që dëshironi të procesoni dhe shtypni Enter.
 
 Algoritmi do të fillojë ekzekutimin dhe në fund do të ruajë rezultatin në folderin `data/output/`.
+
+## Genetic Algorithm Scheduler
+
+**Genetic Algorithm Scheduler** është një algoritëm **stokastik** për optimizimin e orarit televiziv përmes mekanizmave të inspiruar nga evolucioni natyror.
+
+**Metodologjia:**
+
+1. **Population Initialization:** Popullata fillestare përmban një zgjidhje të bazuar në Greedy+Lookahead dhe POP_SIZE-1 variante stokastike për të siguruar diversitet.
+
+2. **Selection:** Përdor **Tournament Selection** - zgjidhen dy individë të rastit dhe më i miri shënohet për riproduksion. Kjo siguron presion selektiv ndaj zgjidhjeve më të mira.
+
+3. **Crossover:** Krijon fëmijë të rinj nga dy prindër duke përdorur ndarje kohore të rastit. Pjesa e parë vjen nga prindit 1, pjesa e dytë nga prindit 2, me përshtatje për të siguruar pajtueshmëri të kufizimeve.
+
+4. **Mutation:** Ndryshon një zgjidhje duke e prerë në një pikë të rastit dhe duke ri-mbushur pjesën tjetër stokastikisht. Kjo siguron eksplorimin e hapësirës së zgjidhjeve.
+
+5. **Elitism:** Mban individët më të mirë të vjetër; pjesa tjetër zëvendësohet nga fëmijë të rinj.
+
+6. **Local Improvement:** Pas çdo gjeneratë, zbatohet kërkimi lokal për të rafinuar zgjidhjen më të mirë.
+
+**Konfigurimi i Parametrave:**
+
+Projekti përdor 4 konfigurimi eksperimentale:
+
+| Konfigurimi | POP_SIZE | GENERATIONS | CROSSOVER_RATE | MUTATION_RATE | TOURNAMENT_SIZE | ELITISM |
+|------------|----------|-------------|-----------------|-----------------|-----------------|---------|
+| experiment_1_small_pop | 5 | 30 | 0.80 | 0.25 | 2 | 1 |
+| experiment_2_medium_pop | 10 | 30 | 0.80 | 0.25 | 3 | 1 |
+| experiment_3_large_pop | 20 | 20 | 0.85 | 0.20 | 3 | 2 |
+| experiment_4_high_mutation | 10 | 30 | 0.70 | 0.40 | 2 | 1 |
+
+**TIME_LIMIT:** 300 sekonda për çdo run
+
+## Rezultatet e Ekzekutimit Batch (May 4, 2026)
+
+**Koha Totale e Ekzekutimit:** 39.95 sekonda  
+**Instancat e Testuar:** 17 grupe të dhënash  
+**Konfigurimi Totali:** 4 × 17 = 68 variacionet e parametrave
+
+### Rezultatet më të Mirë për Çdo Instancë
+
+| Instanca | Konfigurimi Optimal | Koha (s) |
+|----------|-------------------|----------|
+| australia_iptv.json | experiment_1_small_pop | 0.25 |
+| canada_pw.json | experiment_4_high_mutation | 0.20 |
+| china_pw.json | experiment_4_high_mutation | 0.31 |
+| croatia_tv_input.json | experiment_3_large_pop | 0.10 |
+| france_iptv.json | experiment_3_large_pop | 0.15 |
+| germany_tv_input.json | experiment_4_high_mutation | 0.10 |
+| kosovo_tv_input.json | experiment_4_high_mutation | 0.10 |
+| netherlands_tv_input.json | experiment_3_large_pop | 0.11 |
+| singapore_pw.json | experiment_4_high_mutation | 0.13 |
+| spain_iptv.json | experiment_4_high_mutation | 0.14 |
+| toy.json | experiment_2_medium_pop | 0.10 |
+| uk_iptv.json | experiment_2_medium_pop | 0.21 |
+| uk_tv_input.json | experiment_1_small_pop | 0.12 |
+| us_iptv.json | experiment_1_small_pop | 2.23 |
+| usa_tv_input.json | experiment_4_high_mutation | 0.27 |
+| youtube_gold.json | experiment_1_small_pop | 2.36 |
+| youtube_premium.json | experiment_3_large_pop | 2.99 |
+
+### Përfundimet Kryesore
+
+- **experiment_4_high_mutation** performon më mirë në 7 instanca (41% e përgjithshme)
+- **experiment_3_large_pop** më e mirë në 4 instanca (24%)
+- **experiment_1_small_pop** më e mirë në 4 instanca (24%)
+- **experiment_2_medium_pop** më e mirë në 2 instanca (12%)
+
+**Gjetje:** Konfigurimi me **mutation të lartë** është më efektiv në shumicën e rasteve, veçanërisht për instancat me kompleksitet mesatar.
+
+## Ekzekutimi i Projektit
+
+### Për Një Instancë të Vetme
+
+```bash
+python main_new.py
+```
+
+Zgjidhni:
+1. Fajllin hyrës (input)
+2. Scheduler: `3` për Genetic Algorithm
+3. Konfigurimin GA (p.sh., `experiment_2_medium_pop`)
+
+### Për Të Ekzekutuar të Gjithë Instancat me të Gjithë Konfigurimet
+
+```bash
+python run_all_experiments.py
+```
+
+Ky skript:
+- Teston të gjitha 17 instancat
+- Ekzekuton secilën me të 4 konfigurimet
+- Bën 10 run-e për çdo instancë/konfiguracion
+- Ruaj rezultatet individuale në `results/ga_results_[instanca]_[timestamp].json`
+- Ruaj rezultatet agregate në `results/batch_results_[timestamp].json`
+
+**Koha Totale:** ~5 minuta për të gjithë variacionet e parametrave

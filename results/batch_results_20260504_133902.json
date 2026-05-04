@@ -1,0 +1,406 @@
+{
+  "timestamp": "2026-05-04T13:38:22.705808",
+  "instances": [
+    "australia_iptv.json",
+    "canada_pw.json",
+    "china_pw.json",
+    "croatia_tv_input.json",
+    "france_iptv.json",
+    "germany_tv_input.json",
+    "kosovo_tv_input.json",
+    "netherlands_tv_input.json",
+    "singapore_pw.json",
+    "spain_iptv.json",
+    "toy.json",
+    "uk_iptv.json",
+    "uk_tv_input.json",
+    "us_iptv.json",
+    "usa_tv_input.json",
+    "youtube_gold.json",
+    "youtube_premium.json"
+  ],
+  "configs": [
+    "experiment_1_small_pop",
+    "experiment_2_medium_pop",
+    "experiment_3_large_pop",
+    "experiment_4_high_mutation"
+  ],
+  "runs_per_instance": 10,
+  "results": {
+    "australia_iptv.json": {
+      "experiment_1_small_pop": {
+        "status": "success",
+        "time": 0.25223565101623535,
+        "timestamp": "2026-05-04T13:38:22.958044"
+      },
+      "experiment_2_medium_pop": {
+        "status": "success",
+        "time": 0.19900202751159668,
+        "timestamp": "2026-05-04T13:38:23.157045"
+      },
+      "experiment_3_large_pop": {
+        "status": "success",
+        "time": 0.17342853546142578,
+        "timestamp": "2026-05-04T13:38:23.330474"
+      },
+      "experiment_4_high_mutation": {
+        "status": "success",
+        "time": 0.1874535083770752,
+        "timestamp": "2026-05-04T13:38:23.517928"
+      }
+    },
+    "canada_pw.json": {
+      "experiment_1_small_pop": {
+        "status": "success",
+        "time": 0.22392964363098145,
+        "timestamp": "2026-05-04T13:38:23.741857"
+      },
+      "experiment_2_medium_pop": {
+        "status": "success",
+        "time": 0.230879545211792,
+        "timestamp": "2026-05-04T13:38:23.972737"
+      },
+      "experiment_3_large_pop": {
+        "status": "success",
+        "time": 0.23960566520690918,
+        "timestamp": "2026-05-04T13:38:24.212343"
+      },
+      "experiment_4_high_mutation": {
+        "status": "success",
+        "time": 0.20055770874023438,
+        "timestamp": "2026-05-04T13:38:24.412900"
+      }
+    },
+    "china_pw.json": {
+      "experiment_1_small_pop": {
+        "status": "success",
+        "time": 0.3373560905456543,
+        "timestamp": "2026-05-04T13:38:24.750256"
+      },
+      "experiment_2_medium_pop": {
+        "status": "success",
+        "time": 0.31165623664855957,
+        "timestamp": "2026-05-04T13:38:25.061913"
+      },
+      "experiment_3_large_pop": {
+        "status": "success",
+        "time": 0.3098883628845215,
+        "timestamp": "2026-05-04T13:38:25.371801"
+      },
+      "experiment_4_high_mutation": {
+        "status": "success",
+        "time": 0.31006503105163574,
+        "timestamp": "2026-05-04T13:38:25.681866"
+      }
+    },
+    "croatia_tv_input.json": {
+      "experiment_1_small_pop": {
+        "status": "success",
+        "time": 0.11297440528869629,
+        "timestamp": "2026-05-04T13:38:25.796847"
+      },
+      "experiment_2_medium_pop": {
+        "status": "success",
+        "time": 0.10805225372314453,
+        "timestamp": "2026-05-04T13:38:25.904899"
+      },
+      "experiment_3_large_pop": {
+        "status": "success",
+        "time": 0.10021400451660156,
+        "timestamp": "2026-05-04T13:38:26.005113"
+      },
+      "experiment_4_high_mutation": {
+        "status": "success",
+        "time": 0.10634660720825195,
+        "timestamp": "2026-05-04T13:38:26.111460"
+      }
+    },
+    "france_iptv.json": {
+      "experiment_1_small_pop": {
+        "status": "success",
+        "time": 0.17525625228881836,
+        "timestamp": "2026-05-04T13:38:26.286716"
+      },
+      "experiment_2_medium_pop": {
+        "status": "success",
+        "time": 0.1668546199798584,
+        "timestamp": "2026-05-04T13:38:26.453571"
+      },
+      "experiment_3_large_pop": {
+        "status": "success",
+        "time": 0.14661049842834473,
+        "timestamp": "2026-05-04T13:38:26.600680"
+      },
+      "experiment_4_high_mutation": {
+        "status": "success",
+        "time": 0.15981507301330566,
+        "timestamp": "2026-05-04T13:38:26.760495"
+      }
+    },
+    "germany_tv_input.json": {
+      "experiment_1_small_pop": {
+        "status": "success",
+        "time": 0.1253049373626709,
+        "timestamp": "2026-05-04T13:38:26.885800"
+      },
+      "experiment_2_medium_pop": {
+        "status": "success",
+        "time": 0.10280323028564453,
+        "timestamp": "2026-05-04T13:38:26.988603"
+      },
+      "experiment_3_large_pop": {
+        "status": "success",
+        "time": 0.10045766830444336,
+        "timestamp": "2026-05-04T13:38:27.089061"
+      },
+      "experiment_4_high_mutation": {
+        "status": "success",
+        "time": 0.09987092018127441,
+        "timestamp": "2026-05-04T13:38:27.188931"
+      }
+    },
+    "kosovo_tv_input.json": {
+      "experiment_1_small_pop": {
+        "status": "success",
+        "time": 0.11860275268554688,
+        "timestamp": "2026-05-04T13:38:27.307534"
+      },
+      "experiment_2_medium_pop": {
+        "status": "success",
+        "time": 0.14946603775024414,
+        "timestamp": "2026-05-04T13:38:27.457000"
+      },
+      "experiment_3_large_pop": {
+        "status": "success",
+        "time": 0.10663318634033203,
+        "timestamp": "2026-05-04T13:38:27.563634"
+      },
+      "experiment_4_high_mutation": {
+        "status": "success",
+        "time": 0.0977177619934082,
+        "timestamp": "2026-05-04T13:38:27.661351"
+      }
+    },
+    "netherlands_tv_input.json": {
+      "experiment_1_small_pop": {
+        "status": "success",
+        "time": 0.11491894721984863,
+        "timestamp": "2026-05-04T13:38:27.776270"
+      },
+      "experiment_2_medium_pop": {
+        "status": "success",
+        "time": 0.10175275802612305,
+        "timestamp": "2026-05-04T13:38:27.878023"
+      },
+      "experiment_3_large_pop": {
+        "status": "success",
+        "time": 0.11481022834777832,
+        "timestamp": "2026-05-04T13:38:27.992833"
+      },
+      "experiment_4_high_mutation": {
+        "status": "success",
+        "time": 0.10056281089782715,
+        "timestamp": "2026-05-04T13:38:28.093396"
+      }
+    },
+    "singapore_pw.json": {
+      "experiment_1_small_pop": {
+        "status": "success",
+        "time": 0.151991605758667,
+        "timestamp": "2026-05-04T13:38:28.245388"
+      },
+      "experiment_2_medium_pop": {
+        "status": "success",
+        "time": 0.14037728309631348,
+        "timestamp": "2026-05-04T13:38:28.385765"
+      },
+      "experiment_3_large_pop": {
+        "status": "success",
+        "time": 0.13739418983459473,
+        "timestamp": "2026-05-04T13:38:28.523159"
+      },
+      "experiment_4_high_mutation": {
+        "status": "success",
+        "time": 0.13369417190551758,
+        "timestamp": "2026-05-04T13:38:28.656853"
+      }
+    },
+    "spain_iptv.json": {
+      "experiment_1_small_pop": {
+        "status": "success",
+        "time": 0.14649033546447754,
+        "timestamp": "2026-05-04T13:38:28.803344"
+      },
+      "experiment_2_medium_pop": {
+        "status": "success",
+        "time": 0.15357160568237305,
+        "timestamp": "2026-05-04T13:38:28.956915"
+      },
+      "experiment_3_large_pop": {
+        "status": "success",
+        "time": 0.145035982131958,
+        "timestamp": "2026-05-04T13:38:29.101951"
+      },
+      "experiment_4_high_mutation": {
+        "status": "success",
+        "time": 0.13783478736877441,
+        "timestamp": "2026-05-04T13:38:29.239786"
+      }
+    },
+    "toy.json": {
+      "experiment_1_small_pop": {
+        "status": "success",
+        "time": 0.10426712036132812,
+        "timestamp": "2026-05-04T13:38:29.344053"
+      },
+      "experiment_2_medium_pop": {
+        "status": "success",
+        "time": 0.09756278991699219,
+        "timestamp": "2026-05-04T13:38:29.441616"
+      },
+      "experiment_3_large_pop": {
+        "status": "success",
+        "time": 0.09995675086975098,
+        "timestamp": "2026-05-04T13:38:29.541573"
+      },
+      "experiment_4_high_mutation": {
+        "status": "success",
+        "time": 0.0999455451965332,
+        "timestamp": "2026-05-04T13:38:29.641518"
+      }
+    },
+    "uk_iptv.json": {
+      "experiment_1_small_pop": {
+        "status": "success",
+        "time": 0.2640209197998047,
+        "timestamp": "2026-05-04T13:38:29.905539"
+      },
+      "experiment_2_medium_pop": {
+        "status": "success",
+        "time": 0.214125394821167,
+        "timestamp": "2026-05-04T13:38:30.119664"
+      },
+      "experiment_3_large_pop": {
+        "status": "success",
+        "time": 0.2431788444519043,
+        "timestamp": "2026-05-04T13:38:30.362843"
+      },
+      "experiment_4_high_mutation": {
+        "status": "success",
+        "time": 0.2277543544769287,
+        "timestamp": "2026-05-04T13:38:30.590598"
+      }
+    },
+    "uk_tv_input.json": {
+      "experiment_1_small_pop": {
+        "status": "success",
+        "time": 0.12308192253112793,
+        "timestamp": "2026-05-04T13:38:30.713680"
+      },
+      "experiment_2_medium_pop": {
+        "status": "success",
+        "time": 0.11833620071411133,
+        "timestamp": "2026-05-04T13:38:30.832016"
+      },
+      "experiment_3_large_pop": {
+        "status": "success",
+        "time": 0.11645150184631348,
+        "timestamp": "2026-05-04T13:38:30.948467"
+      },
+      "experiment_4_high_mutation": {
+        "status": "success",
+        "time": 0.12243103981018066,
+        "timestamp": "2026-05-04T13:38:31.070898"
+      }
+    },
+    "us_iptv.json": {
+      "experiment_1_small_pop": {
+        "status": "success",
+        "time": 2.2312662601470947,
+        "timestamp": "2026-05-04T13:38:33.302165"
+      },
+      "experiment_2_medium_pop": {
+        "status": "success",
+        "time": 2.1854162216186523,
+        "timestamp": "2026-05-04T13:38:35.487581"
+      },
+      "experiment_3_large_pop": {
+        "status": "success",
+        "time": 2.195338487625122,
+        "timestamp": "2026-05-04T13:38:37.682919"
+      },
+      "experiment_4_high_mutation": {
+        "status": "success",
+        "time": 2.2769134044647217,
+        "timestamp": "2026-05-04T13:38:39.959833"
+      }
+    },
+    "usa_tv_input.json": {
+      "experiment_1_small_pop": {
+        "status": "success",
+        "time": 0.27613306045532227,
+        "timestamp": "2026-05-04T13:38:40.235966"
+      },
+      "experiment_2_medium_pop": {
+        "status": "success",
+        "time": 0.26375889778137207,
+        "timestamp": "2026-05-04T13:38:40.499725"
+      },
+      "experiment_3_large_pop": {
+        "status": "success",
+        "time": 0.2673771381378174,
+        "timestamp": "2026-05-04T13:38:40.767102"
+      },
+      "experiment_4_high_mutation": {
+        "status": "success",
+        "time": 0.2686777114868164,
+        "timestamp": "2026-05-04T13:38:41.035779"
+      }
+    },
+    "youtube_gold.json": {
+      "experiment_1_small_pop": {
+        "status": "success",
+        "time": 2.3601224422454834,
+        "timestamp": "2026-05-04T13:38:43.395902"
+      },
+      "experiment_2_medium_pop": {
+        "status": "success",
+        "time": 2.393219232559204,
+        "timestamp": "2026-05-04T13:38:45.789121"
+      },
+      "experiment_3_large_pop": {
+        "status": "success",
+        "time": 2.5400171279907227,
+        "timestamp": "2026-05-04T13:38:48.329138"
+      },
+      "experiment_4_high_mutation": {
+        "status": "success",
+        "time": 2.380950927734375,
+        "timestamp": "2026-05-04T13:38:50.712096"
+      }
+    },
+    "youtube_premium.json": {
+      "experiment_1_small_pop": {
+        "status": "success",
+        "time": 2.939659357070923,
+        "timestamp": "2026-05-04T13:38:53.651756"
+      },
+      "experiment_2_medium_pop": {
+        "status": "success",
+        "time": 3.0401947498321533,
+        "timestamp": "2026-05-04T13:38:56.691951"
+      },
+      "experiment_3_large_pop": {
+        "status": "success",
+        "time": 2.9853668212890625,
+        "timestamp": "2026-05-04T13:38:59.677317"
+      },
+      "experiment_4_high_mutation": {
+        "status": "success",
+        "time": 2.9806952476501465,
+        "timestamp": "2026-05-04T13:39:02.658013"
+      }
+    }
+  },
+  "total_time": 39.95220470428467
+}
