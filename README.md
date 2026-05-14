@@ -155,3 +155,261 @@ Ky skript:
 - Ruaj rezultatet agregate në `results/batch_results_[timestamp].json`
 
 **Koha Totale:** ~5 minuta për të gjithë variacionet e parametrave
+
+
+# Krahasimi i Algoritmit Gjenetik, Local Search dhe Hybrid Optimization
+
+Për secilën instancë:
+
+- Janë realizuar 10 ekzekutime të pavarura
+- Janë mbledhur statistika të performancës
+- Algoritmet janë krahasuar sipas:
+  - Rezultatit më të mirë
+  - Mesatares së rezultateve
+  - Rezultatit më të dobët
+  - Devijimit standard
+  - Kohës së ekzekutimit
+  - Përqindjes së përmirësimit
+
+---
+
+# Algoritmet e Implementuara
+
+## 1. Algoritmi Gjenetik (GA)
+
+Algoritmi Gjenetik është një metaheuristikë e bazuar në evolucionin natyror.
+
+### Komponentët Kryesorë
+
+- Inicializimi i popullatës
+- Vlerësimi i fitness-it
+- Tournament selection
+- Crossover
+- Mutation
+- Elitism
+
+### Avantazhet
+
+- Eksplorim i mirë i hapësirës së kërkimit
+- Ruajtje e diversitetit të popullatës
+- Shmangie më e mirë e local optima
+
+### Disavantazhet
+
+- Kosto më e lartë llogaritëse
+- Ka nevojë për parametrizim të mirë
+
+---
+
+## 2. Local Search (LS)
+
+Local Search përmirëson një zgjidhje duke eksploruar fqinjët e saj.
+
+### Operatorët e Përdorur
+
+- Swap
+- Move
+- Replace
+- Repair / Refill
+
+### Avantazhet
+
+- Konvergjencë e shpejtë
+- Shfrytëzim i fortë i zgjidhjeve
+- Implementim i thjeshtë
+
+### Disavantazhet
+
+- Bllokohet lehtë në local optima
+- Eksplorim i dobët
+
+---
+
+## 3. Hybrid GA + LS
+
+Qasja Hybrid kombinon:
+
+- Eksplorimin e GA
+- Përmirësimin lokal të LS
+
+Qëllimi është që GA të gjejë zona premtuese të hapësirës së kërkimit, ndërsa LS të rafinojë zgjidhjen.
+
+---
+
+# Rezultatet Eksperimentale
+
+# Instanca: `australia_pw`
+
+## Përmbledhja e Rezultateve
+
+| Algoritmi | Best | Average | Worst | Std Dev | Time |
+|---|---|---|---|---|---|
+| GA | 4135 | 4117.4 | 4114 | 7.03 | 6636.6 s |
+| LS | 4114 | 4114 | 4114 | 0.00 | 6760.4 s |
+| Hybrid | 4141 | 4123.1 | 4114 | 9.73 | 38907.0 s |
+
+## Analiza
+
+- GA prodhoi zgjidhje të ndryshme dhe cilësore.
+- LS konvergoi gjithmonë në rezultatin 4114 dhe uli cilësinë e zgjidhjes.
+- Hybrid arriti rezultatin më të mirë (4141).
+- Hybrid përmirësoi eksplorimin, por me kosto shumë të lartë ekzekutimi.
+
+## Përfundimi
+
+Hybrid arriti rezultatin më të mirë për këtë instancë, por me kosto shumë të madhe llogaritëse.
+
+---
+
+# Instanca: `canada_pw`
+
+Kanale: 634  
+Programe: 12162
+
+## Përmbledhja e Rezultateve
+
+| Algoritmi | Best | Average | Worst | Std Dev | Time |
+|---|---|---|---|---|---|
+| GA | 4695 | 4695 | 4695 | 0.00 | 1705.9 s |
+| LS | 4695 | 4695 | 4695 | 0.00 | 1702.4 s |
+| Hybrid | 4695 | 4695 | 4695 | 0.00 | 2091.6 s |
+
+## Analiza
+
+- Të gjitha algoritmet prodhuan të njëjtën zgjidhje.
+- Nuk pati përmirësime.
+- GA kishte arritur tashmë local optimum.
+
+---
+
+# Instanca: `china_pw`
+
+Kanale: 1254  
+Programe: 20429
+
+## Përmbledhja e Rezultateve
+
+| Algoritmi | Best | Average | Worst | Std Dev | Time |
+|---|---|---|---|---|---|
+| GA | 2657 | 2657 | 2657 | 0.00 | 2466.1 s |
+| LS | 2657 | 2657 | 2657 | 0.00 | 1740.4 s |
+| Hybrid | 2657 | 2657 | 2657 | 0.00 | 2064.7 s |
+
+## Analiza
+
+- Të gjitha metodat konverguan menjëherë.
+- Nuk pati përmirësim të eksplorimit.
+- Hapësira e kërkimit duket shumë deterministike.
+
+---
+
+# Instanca: `croatia_tv_input`
+
+Kanale: 15  
+Programe: 205
+
+## Përmbledhja e Rezultateve
+
+| Algoritmi | Best | Average | Worst | Std Dev | Time |
+|---|---|---|---|---|---|
+| GA | 2187 | 2182.1 | 2138 | 14.70 | 2.1 s |
+| LS | 2138 | 2138 | 2138 | 0.00 | 156.1 s |
+| Hybrid | 2187 | 2187 | 2187 | 0.00 | 49.2 s |
+
+## Analiza
+
+- GA prodhoi zgjidhje të ndryshme.
+- LS e përkeqësoi zgjidhjen duke ngecur në local optimum.
+- Hybrid ruajti rezultatin më të mirë të GA.
+
+---
+
+# Instanca: `france_iptv`
+
+Kanale: 397  
+Programe: 6291
+
+## Përmbledhja e Rezultateve
+
+| Algoritmi | Best | Average | Worst | Std Dev | Time |
+|---|---|---|---|---|---|
+| GA | 4360 | 4351.1 | 4340 | 9.27 | 2046.2 s |
+| LS | 4340 | 4340 | 4340 | 0.00 | 1941.5 s |
+| Hybrid | 4359 | 4344.9 | 4340 | 7.76 | 2253.4 s |
+
+## Analiza
+
+- GA ruajti diversitetin dhe arriti rezultatin më të mirë.
+- LS përsëri konvergoi para kohe.
+- Hybrid stabilizoi rezultatet por nuk e kaloi GA.
+
+---
+
+# Instanca: `germany_tv_input`
+
+Kanale: 5  
+Programe: 52
+
+| Algoritmi | Best | Average | Worst | Std Dev | Time |
+|---|---|---|---|---|---|
+| GA | 1553 | 1553 | 1553 | 0.00 | 2.2 s |
+| LS | 1553 | 1553 | 1553 | 0.00 | 235.3 s |
+| Hybrid | 1553 | 1553 | 1553 | 0.00 | 82.2 s |
+
+---
+
+# Instanca: `kosovo_tv_input`
+
+Kanale: 13  
+Programe: 175
+
+| Algoritmi | Best | Average | Worst | Std Dev | Time |
+|---|---|---|---|---|---|
+| GA | 2572 | 2572 | 2572 | 0.00 | 3.0 s |
+| LS | 2572 | 2572 | 2572 | 0.00 | 330.3 s |
+| Hybrid | 2572 | 2572 | 2572 | 0.00 | 110.6 s |
+
+---
+
+# Instanca: `netherlands_tv_input`
+
+Kanale: 12  
+Programe: 180
+
+| Algoritmi | Best | Average | Worst | Std Dev | Time |
+|---|---|---|---|---|---|
+| GA | 2608 | 2608 | 2608 | 0.00 | 3.2 s |
+| LS | 2608 | 2608 | 2608 | 0.00 | 384.8 s |
+| Hybrid | 2608 | 2608 | 2608 | 0.00 | 128.4 s |
+
+---
+
+# Instanca: `singapore_pw`
+
+Kanale: 211  
+Programe: 4158
+
+| Algoritmi | Best | Average | Worst | Std Dev | Time |
+|---|---|---|---|---|---|
+| GA | 4327 | 4327 | 4327 | 0.00 | 198.6 s |
+| LS | 4327 | 4327 | 4327 | 0.00 | 601.6 s |
+| Hybrid | 4327 | 4327 | 4327 | 0.00 | 415.8 s |
+
+---
+
+# Instanca: `toy`
+
+Kanale: 3  
+Programe: 5
+
+| Algoritmi | Best | Average | Worst | Std Dev | Time |
+|---|---|---|---|---|---|
+| GA | 380 | 380 | 380 | 0.00 | 0.4 s |
+| LS | 380 | 380 | 380 | 0.00 | 1.7 s |
+| Hybrid | 380 | 380 | 380 | 0.00 | 1.0 s |
+
+
+
+
+
+
