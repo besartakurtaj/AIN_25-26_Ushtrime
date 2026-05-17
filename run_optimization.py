@@ -1,14 +1,3 @@
-"""
-COMPREHENSIVE OPTIMIZATION AND ANALYSIS RUNNER
-===============================================
-
-Main script that runs:
-1. Parameter Analysis - analyze optimal GA parameters from existing results
-2. Per-Instance Analysis - detailed results for each instance separately
-3. Comparison - run 10 executions of GA, LS, and Hybrid GA+LS on all instances
-4. Report Generation - generate comprehensive comparison reports
-"""
-
 import argparse
 import json
 from pathlib import Path
