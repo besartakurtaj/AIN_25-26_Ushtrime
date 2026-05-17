@@ -1,0 +1,4801 @@
+{
+  "summary": {
+    "timestamp": "2026-05-13T19:03:22.453694",
+    "num_instances": 14,
+    "num_runs_per_instance": 10,
+    "ga_time_limit": 60,
+    "ls_time_limit": 60,
+    "instances": [
+      {
+        "instance": "australia_iptv",
+        "ga_avg": 4117.4,
+        "ls_avg": 4114.0,
+        "hybrid_avg": 4123.1,
+        "ls_improvement_avg": -3.4,
+        "ls_improvement_avg_pct": -0.08228585224444328,
+        "hybrid_improvement_avg": 0.0,
+        "hybrid_improvement_avg_pct": 0.0
+      },
+      {
+        "instance": "canada_pw",
+        "ga_avg": 4695.0,
+        "ls_avg": 4695.0,
+        "hybrid_avg": 4695.0,
+        "ls_improvement_avg": 0.0,
+        "ls_improvement_avg_pct": 0.0,
+        "hybrid_improvement_avg": 0.0,
+        "hybrid_improvement_avg_pct": 0.0
+      },
+      {
+        "instance": "china_pw",
+        "ga_avg": 2657.0,
+        "ls_avg": 2657.0,
+        "hybrid_avg": 2657.0,
+        "ls_improvement_avg": 0.0,
+        "ls_improvement_avg_pct": 0.0,
+        "hybrid_improvement_avg": 0.0,
+        "hybrid_improvement_avg_pct": 0.0
+      },
+      {
+        "instance": "croatia_tv_input",
+        "ga_avg": 2182.1,
+        "ls_avg": 2138.0,
+        "hybrid_avg": 2187.0,
+        "ls_improvement_avg": -44.1,
+        "ls_improvement_avg_pct": -2.0164609053497946,
+        "hybrid_improvement_avg": 0.0,
+        "hybrid_improvement_avg_pct": 0.0
+      },
+      {
+        "instance": "france_iptv",
+        "ga_avg": 4351.1,
+        "ls_avg": 4340.0,
+        "hybrid_avg": 4344.9,
+        "ls_improvement_avg": -11.1,
+        "ls_improvement_avg_pct": -0.25465509797862984,
+        "hybrid_improvement_avg": 0.0,
+        "hybrid_improvement_avg_pct": 0.0
+      },
+      {
+        "instance": "germany_tv_input",
+        "ga_avg": 1553.0,
+        "ls_avg": 1553.0,
+        "hybrid_avg": 1553.0,
+        "ls_improvement_avg": 0.0,
+        "ls_improvement_avg_pct": 0.0,
+        "hybrid_improvement_avg": 0.0,
+        "hybrid_improvement_avg_pct": 0.0
+      },
+      {
+        "instance": "kosovo_tv_input",
+        "ga_avg": 2572.0,
+        "ls_avg": 2572.0,
+        "hybrid_avg": 2572.0,
+        "ls_improvement_avg": 0.0,
+        "ls_improvement_avg_pct": 0.0,
+        "hybrid_improvement_avg": 0.0,
+        "hybrid_improvement_avg_pct": 0.0
+      },
+      {
+        "instance": "netherlands_tv_input",
+        "ga_avg": 2608.0,
+        "ls_avg": 2608.0,
+        "hybrid_avg": 2608.0,
+        "ls_improvement_avg": 0.0,
+        "ls_improvement_avg_pct": 0.0,
+        "hybrid_improvement_avg": 0.0,
+        "hybrid_improvement_avg_pct": 0.0
+      },
+      {
+        "instance": "singapore_pw",
+        "ga_avg": 4327.0,
+        "ls_avg": 4327.0,
+        "hybrid_avg": 4327.0,
+        "ls_improvement_avg": 0.0,
+        "ls_improvement_avg_pct": 0.0,
+        "hybrid_improvement_avg": 0.0,
+        "hybrid_improvement_avg_pct": 0.0
+      },
+      {
+        "instance": "spain_iptv",
+        "ga_avg": 4534.0,
+        "ls_avg": 4530.0,
+        "hybrid_avg": 4530.0,
+        "ls_improvement_avg": -4.0,
+        "ls_improvement_avg_pct": -0.0879120879120879,
+        "hybrid_improvement_avg": 0.0,
+        "hybrid_improvement_avg_pct": 0.0
+      },
+      {
+        "instance": "toy",
+        "ga_avg": 380.0,
+        "ls_avg": 380.0,
+        "hybrid_avg": 380.0,
+        "ls_improvement_avg": 0.0,
+        "ls_improvement_avg_pct": 0.0,
+        "hybrid_improvement_avg": 0.0,
+        "hybrid_improvement_avg_pct": 0.0
+      },
+      {
+        "instance": "uk_iptv",
+        "ga_avg": 5077.0,
+        "ls_avg": 5077.0,
+        "hybrid_avg": 5077.0,
+        "ls_improvement_avg": 0.0,
+        "ls_improvement_avg_pct": 0.0,
+        "hybrid_improvement_avg": 0.0,
+        "hybrid_improvement_avg_pct": 0.0
+      },
+      {
+        "instance": "uk_tv_input",
+        "ga_avg": 2165.4,
+        "ls_avg": 2159.0,
+        "hybrid_avg": 2167.0,
+        "ls_improvement_avg": -6.4,
+        "ls_improvement_avg_pct": -0.29533917858790953,
+        "hybrid_improvement_avg": 0.0,
+        "hybrid_improvement_avg_pct": 0.0
+      },
+      {
+        "instance": "usa_tv_input",
+        "ga_avg": 3573.0,
+        "ls_avg": 3573.0,
+        "hybrid_avg": 3573.0,
+        "ls_improvement_avg": 0.0,
+        "ls_improvement_avg_pct": 0.0,
+        "hybrid_improvement_avg": 0.0,
+        "hybrid_improvement_avg_pct": 0.0
+      }
+    ]
+  },
+  "detailed": [
+    {
+      "instance": "australia_iptv",
+      "instance_path": "data\\input\\australia_iptv.json",
+      "timestamp": "2026-05-13T19:03:22.482875",
+      "instance_info": {
+        "num_channels": 499,
+        "num_programs": 8151
+      },
+      "ga": {
+        "runs": [
+          {
+            "run": 1,
+            "score": 4135,
+            "time_seconds": 1691.4772596359253,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 2,
+            "score": 4114,
+            "time_seconds": 570.3931920528412,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 3,
+            "score": 4114,
+            "time_seconds": 536.5018758773804,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 4,
+            "score": 4114,
+            "time_seconds": 562.9285371303558,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 5,
+            "score": 4114,
+            "time_seconds": 563.5111463069916,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 6,
+            "score": 4127,
+            "time_seconds": 546.812230348587,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 7,
+            "score": 4114,
+            "time_seconds": 526.541264295578,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 8,
+            "score": 4114,
+            "time_seconds": 534.888233423233,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 9,
+            "score": 4114,
+            "time_seconds": 561.4566440582275,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 10,
+            "score": 4114,
+            "time_seconds": 542.1321315765381,
+            "programs_scheduled": 41
+          }
+        ],
+        "statistics": {
+          "best": 4135,
+          "worst": 4114,
+          "average": 4117.4,
+          "median": 4114,
+          "std_dev": 7.031358332498778,
+          "total_time": 6636.644371032715,
+          "avg_time": 663.6644371032714
+        }
+      },
+      "ls": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 4135,
+            "ls_score": 4114,
+            "improvement": -21,
+            "improvement_pct": -0.5078597339782346,
+            "time_seconds": 547.6615083217621,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 2,
+            "ga_score": 4114,
+            "ls_score": 4114,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 618.1101117134094,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 3,
+            "ga_score": 4114,
+            "ls_score": 4114,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 723.6323142051697,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 4,
+            "ga_score": 4114,
+            "ls_score": 4114,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 706.8772237300873,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 5,
+            "ga_score": 4114,
+            "ls_score": 4114,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 676.5092248916626,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 6,
+            "ga_score": 4127,
+            "ls_score": 4114,
+            "improvement": -13,
+            "improvement_pct": -0.3149987884661982,
+            "time_seconds": 678.7243568897247,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 7,
+            "ga_score": 4114,
+            "ls_score": 4114,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 688.9475827217102,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 8,
+            "ga_score": 4114,
+            "ls_score": 4114,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 677.2611103057861,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 9,
+            "ga_score": 4114,
+            "ls_score": 4114,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 679.9294097423553,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 10,
+            "ga_score": 4114,
+            "ls_score": 4114,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 762.7180669307709,
+            "programs_scheduled": 41
+          }
+        ],
+        "statistics": {
+          "best": 4114,
+          "worst": 4114,
+          "average": 4114.0,
+          "median": 4114,
+          "std_dev": 0.0,
+          "total_time": 6760.419806480408,
+          "avg_time": 676.0419806480407,
+          "improvement_avg": -3.4,
+          "improvement_avg_pct": -0.08228585224444328,
+          "improvement_best": 0,
+          "improvement_worst": -21,
+          "improved_runs": 0
+        }
+      },
+      "hybrid": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 4131,
+            "hybrid_score": 4131,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 33994.76247406006,
+            "ls_time": 19.25012731552124,
+            "total_time": 34014.0126042366,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 2,
+            "ga_score": 4114,
+            "hybrid_score": 4114,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 537.1257228851318,
+            "ls_time": 13.460950374603271,
+            "total_time": 550.5866758823395,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 3,
+            "ga_score": 4141,
+            "hybrid_score": 4141,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 496.7877445220947,
+            "ls_time": 14.358654499053955,
+            "total_time": 511.1463997364044,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 4,
+            "ga_score": 4114,
+            "hybrid_score": 4114,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 506.8955075740814,
+            "ls_time": 15.016535520553589,
+            "total_time": 521.9120450019836,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 5,
+            "ga_score": 4126,
+            "hybrid_score": 4126,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 515.2169461250305,
+            "ls_time": 14.178415536880493,
+            "total_time": 529.3953628540039,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 6,
+            "ga_score": 4114,
+            "hybrid_score": 4114,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 515.133766412735,
+            "ls_time": 13.664690256118774,
+            "total_time": 528.7984580993652,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 7,
+            "ga_score": 4132,
+            "hybrid_score": 4132,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 515.0467295646667,
+            "ls_time": 12.929433345794678,
+            "total_time": 527.9761641025543,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 8,
+            "ga_score": 4131,
+            "hybrid_score": 4131,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 524.094001531601,
+            "ls_time": 14.697485208511353,
+            "total_time": 538.7914884090424,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 9,
+            "ga_score": 4114,
+            "hybrid_score": 4114,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 526.2773053646088,
+            "ls_time": 14.370281457901001,
+            "total_time": 540.6475880146027,
+            "programs_scheduled": 41
+          },
+          {
+            "run": 10,
+            "ga_score": 4114,
+            "hybrid_score": 4114,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 623.1325600147247,
+            "ls_time": 20.609305143356323,
+            "total_time": 643.7418665885925,
+            "programs_scheduled": 41
+          }
+        ],
+        "statistics": {
+          "best": 4141,
+          "worst": 4114,
+          "average": 4123.1,
+          "median": 4126,
+          "std_dev": 9.730878685915265,
+          "total_time": 38907.01101374626,
+          "avg_time": 3890.701101374626,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "comparison_summary": {
+        "ls_vs_ga": {
+          "best_improvement": -21,
+          "avg_improvement": -3.399999999999636,
+          "worst_improvement": 0,
+          "avg_improvement_pct": -0.082576383154409
+        },
+        "hybrid_vs_ga": {
+          "best_improvement": 6,
+          "avg_improvement": 5.700000000000728,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.1384368776412476
+        }
+      }
+    },
+    {
+      "instance": "canada_pw",
+      "instance_path": "data\\input\\canada_pw.json",
+      "timestamp": "2026-05-14T09:35:06.668256",
+      "instance_info": {
+        "num_channels": 634,
+        "num_programs": 12162
+      },
+      "ga": {
+        "runs": [
+          {
+            "run": 1,
+            "score": 4695,
+            "time_seconds": 170.14055800437927,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 2,
+            "score": 4695,
+            "time_seconds": 169.59064412117004,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 3,
+            "score": 4695,
+            "time_seconds": 173.7578935623169,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 4,
+            "score": 4695,
+            "time_seconds": 170.52649354934692,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 5,
+            "score": 4695,
+            "time_seconds": 170.57787799835205,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 6,
+            "score": 4695,
+            "time_seconds": 169.82781434059143,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 7,
+            "score": 4695,
+            "time_seconds": 170.47904109954834,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 8,
+            "score": 4695,
+            "time_seconds": 171.0011613368988,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 9,
+            "score": 4695,
+            "time_seconds": 170.46121978759766,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 10,
+            "score": 4695,
+            "time_seconds": 169.54624676704407,
+            "programs_scheduled": 45
+          }
+        ],
+        "statistics": {
+          "best": 4695,
+          "worst": 4695,
+          "average": 4695.0,
+          "median": 4695,
+          "std_dev": 0.0,
+          "total_time": 1705.9106419086456,
+          "avg_time": 170.59106419086456
+        }
+      },
+      "ls": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 4695,
+            "ls_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 165.0293836593628,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 2,
+            "ga_score": 4695,
+            "ls_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 164.75237369537354,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 3,
+            "ga_score": 4695,
+            "ls_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 165.61201763153076,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 4,
+            "ga_score": 4695,
+            "ls_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 165.9132080078125,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 5,
+            "ga_score": 4695,
+            "ls_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 164.0456907749176,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 6,
+            "ga_score": 4695,
+            "ls_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 163.9121651649475,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 7,
+            "ga_score": 4695,
+            "ls_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 172.88585233688354,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 8,
+            "ga_score": 4695,
+            "ls_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 172.90122485160828,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 9,
+            "ga_score": 4695,
+            "ls_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 179.67810893058777,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 10,
+            "ga_score": 4695,
+            "ls_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 187.6498031616211,
+            "programs_scheduled": 45
+          }
+        ],
+        "statistics": {
+          "best": 4695,
+          "worst": 4695,
+          "average": 4695.0,
+          "median": 4695,
+          "std_dev": 0.0,
+          "total_time": 1702.3822824954987,
+          "avg_time": 170.23822824954988,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "hybrid": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 4695,
+            "hybrid_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 185.2225399017334,
+            "ls_time": 24.296956062316895,
+            "total_time": 209.5194971561432,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 2,
+            "ga_score": 4695,
+            "hybrid_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 184.7333676815033,
+            "ls_time": 24.68974280357361,
+            "total_time": 209.4231116771698,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 3,
+            "ga_score": 4695,
+            "hybrid_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 185.40336084365845,
+            "ls_time": 25.167883157730103,
+            "total_time": 210.57124543190002,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 4,
+            "ga_score": 4695,
+            "hybrid_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 187.51732206344604,
+            "ls_time": 24.600924253463745,
+            "total_time": 212.11824750900269,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 5,
+            "ga_score": 4695,
+            "hybrid_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 185.132315158844,
+            "ls_time": 24.87996196746826,
+            "total_time": 210.01227927207947,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 6,
+            "ga_score": 4695,
+            "hybrid_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 185.44552183151245,
+            "ls_time": 24.195314168930054,
+            "total_time": 209.64083695411682,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 7,
+            "ga_score": 4695,
+            "hybrid_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 185.3098063468933,
+            "ls_time": 23.406972646713257,
+            "total_time": 208.71678042411804,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 8,
+            "ga_score": 4695,
+            "hybrid_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 186.27463221549988,
+            "ls_time": 22.969552278518677,
+            "total_time": 209.24418592453003,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 9,
+            "ga_score": 4695,
+            "hybrid_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 186.27443146705627,
+            "ls_time": 25.806334018707275,
+            "total_time": 212.0807671546936,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 10,
+            "ga_score": 4695,
+            "hybrid_score": 4695,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 176.75055170059204,
+            "ls_time": 23.556762218475342,
+            "total_time": 200.30731558799744,
+            "programs_scheduled": 45
+          }
+        ],
+        "statistics": {
+          "best": 4695,
+          "worst": 4695,
+          "average": 4695.0,
+          "median": 4695,
+          "std_dev": 0.0,
+          "total_time": 2091.6360714435577,
+          "avg_time": 209.16360714435578,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "comparison_summary": {
+        "ls_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        },
+        "hybrid_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        }
+      }
+    },
+    {
+      "instance": "china_pw",
+      "instance_path": "data\\input\\china_pw.json",
+      "timestamp": "2026-05-14T11:06:46.757650",
+      "instance_info": {
+        "num_channels": 1254,
+        "num_programs": 20429
+      },
+      "ga": {
+        "runs": [
+          {
+            "run": 1,
+            "score": 2657,
+            "time_seconds": 249.15473866462708,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 2,
+            "score": 2657,
+            "time_seconds": 246.1950330734253,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 3,
+            "score": 2657,
+            "time_seconds": 249.2481963634491,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 4,
+            "score": 2657,
+            "time_seconds": 246.32032799720764,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 5,
+            "score": 2657,
+            "time_seconds": 249.58248567581177,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 6,
+            "score": 2657,
+            "time_seconds": 250.11806058883667,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 7,
+            "score": 2657,
+            "time_seconds": 257.701468706131,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 8,
+            "score": 2657,
+            "time_seconds": 265.1261234283447,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 9,
+            "score": 2657,
+            "time_seconds": 257.52190589904785,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 10,
+            "score": 2657,
+            "time_seconds": 195.16916942596436,
+            "programs_scheduled": 35
+          }
+        ],
+        "statistics": {
+          "best": 2657,
+          "worst": 2657,
+          "average": 2657.0,
+          "median": 2657,
+          "std_dev": 0.0,
+          "total_time": 2466.13929605484,
+          "avg_time": 246.613929605484
+        }
+      },
+      "ls": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 2657,
+            "ls_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 185.4202263355255,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 2,
+            "ga_score": 2657,
+            "ls_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 171.5069420337677,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 3,
+            "ga_score": 2657,
+            "ls_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 173.21009945869446,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 4,
+            "ga_score": 2657,
+            "ls_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 171.44632577896118,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 5,
+            "ga_score": 2657,
+            "ls_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 172.67595720291138,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 6,
+            "ga_score": 2657,
+            "ls_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 176.3798806667328,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 7,
+            "ga_score": 2657,
+            "ls_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 172.7670500278473,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 8,
+            "ga_score": 2657,
+            "ls_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 171.626238822937,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 9,
+            "ga_score": 2657,
+            "ls_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 173.06275391578674,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 10,
+            "ga_score": 2657,
+            "ls_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 172.28447151184082,
+            "programs_scheduled": 35
+          }
+        ],
+        "statistics": {
+          "best": 2657,
+          "worst": 2657,
+          "average": 2657.0,
+          "median": 2657,
+          "std_dev": 0.0,
+          "total_time": 1740.3828155994415,
+          "avg_time": 174.03828155994415,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "hybrid": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 2657,
+            "hybrid_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 192.64544653892517,
+            "ls_time": 10.26900053024292,
+            "total_time": 202.9144480228424,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 2,
+            "ga_score": 2657,
+            "hybrid_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 193.8179976940155,
+            "ls_time": 10.029140710830688,
+            "total_time": 203.8471393585205,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 3,
+            "ga_score": 2657,
+            "hybrid_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 197.40155744552612,
+            "ls_time": 10.04624319076538,
+            "total_time": 207.44780230522156,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 4,
+            "ga_score": 2657,
+            "hybrid_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 194.91871047019958,
+            "ls_time": 10.222947835922241,
+            "total_time": 205.14165925979614,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 5,
+            "ga_score": 2657,
+            "hybrid_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 195.46354269981384,
+            "ls_time": 9.591056108474731,
+            "total_time": 205.05460023880005,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 6,
+            "ga_score": 2657,
+            "hybrid_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 198.96875953674316,
+            "ls_time": 10.584627866744995,
+            "total_time": 209.55338835716248,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 7,
+            "ga_score": 2657,
+            "hybrid_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 198.33555722236633,
+            "ls_time": 9.855053901672363,
+            "total_time": 208.190612077713,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 8,
+            "ga_score": 2657,
+            "hybrid_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 195.76985692977905,
+            "ls_time": 10.402707576751709,
+            "total_time": 206.17256569862366,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 9,
+            "ga_score": 2657,
+            "hybrid_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 198.4731948375702,
+            "ls_time": 10.099872350692749,
+            "total_time": 208.57306838035583,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 10,
+            "ga_score": 2657,
+            "hybrid_score": 2657,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 198.468435049057,
+            "ls_time": 9.325312614440918,
+            "total_time": 207.7937490940094,
+            "programs_scheduled": 35
+          }
+        ],
+        "statistics": {
+          "best": 2657,
+          "worst": 2657,
+          "average": 2657.0,
+          "median": 2657,
+          "std_dev": 0.0,
+          "total_time": 2064.691654443741,
+          "avg_time": 206.46916544437408,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "comparison_summary": {
+        "ls_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        },
+        "hybrid_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        }
+      }
+    },
+    {
+      "instance": "croatia_tv_input",
+      "instance_path": "data\\input\\croatia_tv_input.json",
+      "timestamp": "2026-05-14T12:51:18.020667",
+      "instance_info": {
+        "num_channels": 15,
+        "num_programs": 205
+      },
+      "ga": {
+        "runs": [
+          {
+            "run": 1,
+            "score": 2187,
+            "time_seconds": 0.21260619163513184,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 2,
+            "score": 2187,
+            "time_seconds": 0.20940804481506348,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 3,
+            "score": 2187,
+            "time_seconds": 0.20070195198059082,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 4,
+            "score": 2187,
+            "time_seconds": 0.2034614086151123,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 5,
+            "score": 2187,
+            "time_seconds": 0.20902705192565918,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 6,
+            "score": 2187,
+            "time_seconds": 0.20256876945495605,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 7,
+            "score": 2187,
+            "time_seconds": 0.19460535049438477,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 8,
+            "score": 2187,
+            "time_seconds": 0.2085564136505127,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 9,
+            "score": 2187,
+            "time_seconds": 0.20284724235534668,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 10,
+            "score": 2138,
+            "time_seconds": 0.2106461524963379,
+            "programs_scheduled": 26
+          }
+        ],
+        "statistics": {
+          "best": 2187,
+          "worst": 2138,
+          "average": 2182.1,
+          "median": 2187,
+          "std_dev": 14.7,
+          "total_time": 2.0590672492980957,
+          "avg_time": 0.20590672492980958
+        }
+      },
+      "ls": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 2187,
+            "ls_score": 2138,
+            "improvement": -49,
+            "improvement_pct": -2.240512117055327,
+            "time_seconds": 15.488557815551758,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 2,
+            "ga_score": 2187,
+            "ls_score": 2138,
+            "improvement": -49,
+            "improvement_pct": -2.240512117055327,
+            "time_seconds": 15.750561714172363,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 3,
+            "ga_score": 2187,
+            "ls_score": 2138,
+            "improvement": -49,
+            "improvement_pct": -2.240512117055327,
+            "time_seconds": 15.180683135986328,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 4,
+            "ga_score": 2187,
+            "ls_score": 2138,
+            "improvement": -49,
+            "improvement_pct": -2.240512117055327,
+            "time_seconds": 15.44429636001587,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 5,
+            "ga_score": 2187,
+            "ls_score": 2138,
+            "improvement": -49,
+            "improvement_pct": -2.240512117055327,
+            "time_seconds": 15.202826738357544,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 6,
+            "ga_score": 2187,
+            "ls_score": 2138,
+            "improvement": -49,
+            "improvement_pct": -2.240512117055327,
+            "time_seconds": 15.568384170532227,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 7,
+            "ga_score": 2187,
+            "ls_score": 2138,
+            "improvement": -49,
+            "improvement_pct": -2.240512117055327,
+            "time_seconds": 15.528790950775146,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 8,
+            "ga_score": 2187,
+            "ls_score": 2138,
+            "improvement": -49,
+            "improvement_pct": -2.240512117055327,
+            "time_seconds": 15.745459794998169,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 9,
+            "ga_score": 2187,
+            "ls_score": 2138,
+            "improvement": -49,
+            "improvement_pct": -2.240512117055327,
+            "time_seconds": 15.905481100082397,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 10,
+            "ga_score": 2138,
+            "ls_score": 2138,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 16.23343563079834,
+            "programs_scheduled": 26
+          }
+        ],
+        "statistics": {
+          "best": 2138,
+          "worst": 2138,
+          "average": 2138.0,
+          "median": 2138,
+          "std_dev": 0.0,
+          "total_time": 156.0504207611084,
+          "avg_time": 15.60504207611084,
+          "improvement_avg": -44.1,
+          "improvement_avg_pct": -2.0164609053497946,
+          "improvement_best": 0,
+          "improvement_worst": -49,
+          "improved_runs": 0
+        }
+      },
+      "hybrid": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 2187,
+            "hybrid_score": 2187,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.20482969284057617,
+            "ls_time": 4.547847032546997,
+            "total_time": 4.752678632736206,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 2,
+            "ga_score": 2187,
+            "hybrid_score": 2187,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.2064814567565918,
+            "ls_time": 4.841709136962891,
+            "total_time": 5.048192501068115,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 3,
+            "ga_score": 2187,
+            "hybrid_score": 2187,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.20543909072875977,
+            "ls_time": 4.631693601608276,
+            "total_time": 4.83713436126709,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 4,
+            "ga_score": 2187,
+            "hybrid_score": 2187,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.2010641098022461,
+            "ls_time": 4.6691131591796875,
+            "total_time": 4.870178461074829,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 5,
+            "ga_score": 2187,
+            "hybrid_score": 2187,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.21054339408874512,
+            "ls_time": 4.6360602378845215,
+            "total_time": 4.846605539321899,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 6,
+            "ga_score": 2187,
+            "hybrid_score": 2187,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.20857787132263184,
+            "ls_time": 4.710880994796753,
+            "total_time": 4.9194605350494385,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 7,
+            "ga_score": 2187,
+            "hybrid_score": 2187,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.20289015769958496,
+            "ls_time": 4.9198362827301025,
+            "total_time": 5.122734069824219,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 8,
+            "ga_score": 2187,
+            "hybrid_score": 2187,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.20320892333984375,
+            "ls_time": 4.568988084793091,
+            "total_time": 4.772198677062988,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 9,
+            "ga_score": 2187,
+            "hybrid_score": 2187,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.20315241813659668,
+            "ls_time": 4.625029802322388,
+            "total_time": 4.828184127807617,
+            "programs_scheduled": 25
+          },
+          {
+            "run": 10,
+            "ga_score": 2187,
+            "hybrid_score": 2187,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.1983029842376709,
+            "ls_time": 5.0084803104400635,
+            "total_time": 5.206784725189209,
+            "programs_scheduled": 25
+          }
+        ],
+        "statistics": {
+          "best": 2187,
+          "worst": 2187,
+          "average": 2187.0,
+          "median": 2187,
+          "std_dev": 0.0,
+          "total_time": 49.20819878578186,
+          "avg_time": 4.920819878578186,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "comparison_summary": {
+        "ls_vs_ga": {
+          "best_improvement": -49,
+          "avg_improvement": -44.09999999999991,
+          "worst_improvement": 0,
+          "avg_improvement_pct": -2.020988955593232
+        },
+        "hybrid_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 4.900000000000091,
+          "worst_improvement": 49,
+          "avg_improvement_pct": 0.2245543283992526
+        }
+      }
+    },
+    {
+      "instance": "france_iptv",
+      "instance_path": "data\\input\\france_iptv.json",
+      "timestamp": "2026-05-14T12:54:45.366605",
+      "instance_info": {
+        "num_channels": 397,
+        "num_programs": 6291
+      },
+      "ga": {
+        "runs": [
+          {
+            "run": 1,
+            "score": 4360,
+            "time_seconds": 206.940979719162,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 2,
+            "score": 4360,
+            "time_seconds": 207.9168598651886,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 3,
+            "score": 4360,
+            "time_seconds": 206.41414380073547,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 4,
+            "score": 4340,
+            "time_seconds": 207.11033368110657,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 5,
+            "score": 4340,
+            "time_seconds": 208.53070211410522,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 6,
+            "score": 4340,
+            "time_seconds": 200.47273206710815,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 7,
+            "score": 4340,
+            "time_seconds": 199.11923050880432,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 8,
+            "score": 4353,
+            "time_seconds": 198.5191354751587,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 9,
+            "score": 4359,
+            "time_seconds": 202.1756362915039,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 10,
+            "score": 4359,
+            "time_seconds": 208.99762892723083,
+            "programs_scheduled": 47
+          }
+        ],
+        "statistics": {
+          "best": 4360,
+          "worst": 4340,
+          "average": 4351.1,
+          "median": 4359,
+          "std_dev": 9.267685795278128,
+          "total_time": 2046.2003908157349,
+          "avg_time": 204.62003908157348
+        }
+      },
+      "ls": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 4360,
+            "ls_score": 4340,
+            "improvement": -20,
+            "improvement_pct": -0.45871559633027525,
+            "time_seconds": 194.19021701812744,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 2,
+            "ga_score": 4360,
+            "ls_score": 4340,
+            "improvement": -20,
+            "improvement_pct": -0.45871559633027525,
+            "time_seconds": 194.60560011863708,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 3,
+            "ga_score": 4360,
+            "ls_score": 4340,
+            "improvement": -20,
+            "improvement_pct": -0.45871559633027525,
+            "time_seconds": 194.01009058952332,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 4,
+            "ga_score": 4340,
+            "ls_score": 4340,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 194.12761211395264,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 5,
+            "ga_score": 4340,
+            "ls_score": 4340,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 193.86721563339233,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 6,
+            "ga_score": 4340,
+            "ls_score": 4340,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 194.1015408039093,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 7,
+            "ga_score": 4340,
+            "ls_score": 4340,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 194.06698942184448,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 8,
+            "ga_score": 4353,
+            "ls_score": 4340,
+            "improvement": -13,
+            "improvement_pct": -0.2986446129106363,
+            "time_seconds": 194.19288802146912,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 9,
+            "ga_score": 4359,
+            "ls_score": 4340,
+            "improvement": -19,
+            "improvement_pct": -0.43587978894241797,
+            "time_seconds": 194.34156799316406,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 10,
+            "ga_score": 4359,
+            "ls_score": 4340,
+            "improvement": -19,
+            "improvement_pct": -0.43587978894241797,
+            "time_seconds": 194.02368879318237,
+            "programs_scheduled": 47
+          }
+        ],
+        "statistics": {
+          "best": 4340,
+          "worst": 4340,
+          "average": 4340.0,
+          "median": 4340,
+          "std_dev": 0.0,
+          "total_time": 1941.5296881198883,
+          "avg_time": 194.15296881198884,
+          "improvement_avg": -11.1,
+          "improvement_avg_pct": -0.25465509797862984,
+          "improvement_best": 0,
+          "improvement_worst": -20,
+          "improved_runs": 0
+        }
+      },
+      "hybrid": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 4340,
+            "hybrid_score": 4340,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 199.98712849617004,
+            "ls_time": 18.898166179656982,
+            "total_time": 218.88529634475708,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 2,
+            "ga_score": 4340,
+            "hybrid_score": 4340,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 201.28691148757935,
+            "ls_time": 18.17331337928772,
+            "total_time": 219.46022772789001,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 3,
+            "ga_score": 4359,
+            "hybrid_score": 4359,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 200.06414914131165,
+            "ls_time": 18.274415493011475,
+            "total_time": 218.33856678009033,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 4,
+            "ga_score": 4340,
+            "hybrid_score": 4340,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 201.56661701202393,
+            "ls_time": 18.760660648345947,
+            "total_time": 220.32727980613708,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 5,
+            "ga_score": 4340,
+            "hybrid_score": 4340,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 200.83371424674988,
+            "ls_time": 18.97891068458557,
+            "total_time": 219.81262683868408,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 6,
+            "ga_score": 4340,
+            "hybrid_score": 4340,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 200.16838479042053,
+            "ls_time": 18.096524715423584,
+            "total_time": 218.26491165161133,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 7,
+            "ga_score": 4340,
+            "hybrid_score": 4340,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 200.97091603279114,
+            "ls_time": 18.888749361038208,
+            "total_time": 219.85966730117798,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 8,
+            "ga_score": 4359,
+            "hybrid_score": 4359,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 201.29554843902588,
+            "ls_time": 16.907883882522583,
+            "total_time": 218.2034342288971,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 9,
+            "ga_score": 4351,
+            "hybrid_score": 4351,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 204.21242833137512,
+            "ls_time": 18.435834884643555,
+            "total_time": 222.6482651233673,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 10,
+            "ga_score": 4340,
+            "hybrid_score": 4340,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 252.25020241737366,
+            "ls_time": 25.348124980926514,
+            "total_time": 277.59832978248596,
+            "programs_scheduled": 47
+          }
+        ],
+        "statistics": {
+          "best": 4359,
+          "worst": 4340,
+          "average": 4344.9,
+          "median": 4340,
+          "std_dev": 7.764663547121665,
+          "total_time": 2253.4007449150085,
+          "avg_time": 225.34007449150084,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "comparison_summary": {
+        "ls_vs_ga": {
+          "best_improvement": -20,
+          "avg_improvement": -11.100000000000364,
+          "worst_improvement": 0,
+          "avg_improvement_pct": -0.25510790374848574
+        },
+        "hybrid_vs_ga": {
+          "best_improvement": -1,
+          "avg_improvement": -6.200000000000728,
+          "worst_improvement": 0,
+          "avg_improvement_pct": -0.14249270299466174
+        }
+      }
+    },
+    {
+      "instance": "germany_tv_input",
+      "instance_path": "data\\input\\germany_tv_input.json",
+      "timestamp": "2026-05-14T14:38:46.571877",
+      "instance_info": {
+        "num_channels": 5,
+        "num_programs": 52
+      },
+      "ga": {
+        "runs": [
+          {
+            "run": 1,
+            "score": 1553,
+            "time_seconds": 0.22347235679626465,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 2,
+            "score": 1553,
+            "time_seconds": 0.22281885147094727,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 3,
+            "score": 1553,
+            "time_seconds": 0.2185821533203125,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 4,
+            "score": 1553,
+            "time_seconds": 0.21353483200073242,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 5,
+            "score": 1553,
+            "time_seconds": 0.2226576805114746,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 6,
+            "score": 1553,
+            "time_seconds": 0.21835947036743164,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 7,
+            "score": 1553,
+            "time_seconds": 0.22243046760559082,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 8,
+            "score": 1553,
+            "time_seconds": 0.21616625785827637,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 9,
+            "score": 1553,
+            "time_seconds": 0.2168292999267578,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 10,
+            "score": 1553,
+            "time_seconds": 0.221466064453125,
+            "programs_scheduled": 28
+          }
+        ],
+        "statistics": {
+          "best": 1553,
+          "worst": 1553,
+          "average": 1553.0,
+          "median": 1553,
+          "std_dev": 0.0,
+          "total_time": 2.1980831623077393,
+          "avg_time": 0.21980831623077393
+        }
+      },
+      "ls": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 1553,
+            "ls_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 23.58508563041687,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 2,
+            "ga_score": 1553,
+            "ls_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 22.815555334091187,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 3,
+            "ga_score": 1553,
+            "ls_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 23.103293418884277,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 4,
+            "ga_score": 1553,
+            "ls_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 23.934489250183105,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 5,
+            "ga_score": 1553,
+            "ls_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 23.96748399734497,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 6,
+            "ga_score": 1553,
+            "ls_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 23.525234937667847,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 7,
+            "ga_score": 1553,
+            "ls_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 24.416439056396484,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 8,
+            "ga_score": 1553,
+            "ls_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 24.245271682739258,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 9,
+            "ga_score": 1553,
+            "ls_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 22.58346962928772,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 10,
+            "ga_score": 1553,
+            "ls_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 23.132194995880127,
+            "programs_scheduled": 28
+          }
+        ],
+        "statistics": {
+          "best": 1553,
+          "worst": 1553,
+          "average": 1553.0,
+          "median": 1553,
+          "std_dev": 0.0,
+          "total_time": 235.3103621006012,
+          "avg_time": 23.53103621006012,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "hybrid": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 1553,
+            "hybrid_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.22439241409301758,
+            "ls_time": 8.816872835159302,
+            "total_time": 9.041268348693848,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 2,
+            "ga_score": 1553,
+            "hybrid_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.21863150596618652,
+            "ls_time": 7.879380464553833,
+            "total_time": 8.098015069961548,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 3,
+            "ga_score": 1553,
+            "hybrid_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.2221052646636963,
+            "ls_time": 8.569660902023315,
+            "total_time": 8.791768789291382,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 4,
+            "ga_score": 1553,
+            "hybrid_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.23119091987609863,
+            "ls_time": 7.243841648101807,
+            "total_time": 7.475036144256592,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 5,
+            "ga_score": 1553,
+            "hybrid_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.2169194221496582,
+            "ls_time": 7.73979640007019,
+            "total_time": 7.956718683242798,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 6,
+            "ga_score": 1553,
+            "hybrid_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.2132411003112793,
+            "ls_time": 7.985312223434448,
+            "total_time": 8.198556184768677,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 7,
+            "ga_score": 1553,
+            "hybrid_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.2187347412109375,
+            "ls_time": 7.980597734451294,
+            "total_time": 8.199334621429443,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 8,
+            "ga_score": 1553,
+            "hybrid_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.21925926208496094,
+            "ls_time": 8.053905487060547,
+            "total_time": 8.273167371749878,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 9,
+            "ga_score": 1553,
+            "hybrid_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.21979379653930664,
+            "ls_time": 7.587158441543579,
+            "total_time": 7.806954622268677,
+            "programs_scheduled": 28
+          },
+          {
+            "run": 10,
+            "ga_score": 1553,
+            "hybrid_score": 1553,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.2255697250366211,
+            "ls_time": 8.152904510498047,
+            "total_time": 8.378477334976196,
+            "programs_scheduled": 28
+          }
+        ],
+        "statistics": {
+          "best": 1553,
+          "worst": 1553,
+          "average": 1553.0,
+          "median": 1553,
+          "std_dev": 0.0,
+          "total_time": 82.22112250328064,
+          "avg_time": 8.222112250328063,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "comparison_summary": {
+        "ls_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        },
+        "hybrid_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        }
+      }
+    },
+    {
+      "instance": "kosovo_tv_input",
+      "instance_path": "data\\input\\kosovo_tv_input.json",
+      "timestamp": "2026-05-14T14:44:06.344983",
+      "instance_info": {
+        "num_channels": 13,
+        "num_programs": 175
+      },
+      "ga": {
+        "runs": [
+          {
+            "run": 1,
+            "score": 2572,
+            "time_seconds": 0.29517364501953125,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 2,
+            "score": 2572,
+            "time_seconds": 0.30413126945495605,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 3,
+            "score": 2572,
+            "time_seconds": 0.30381298065185547,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 4,
+            "score": 2572,
+            "time_seconds": 0.3076798915863037,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 5,
+            "score": 2572,
+            "time_seconds": 0.30114006996154785,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 6,
+            "score": 2572,
+            "time_seconds": 0.2913947105407715,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 7,
+            "score": 2572,
+            "time_seconds": 0.3115055561065674,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 8,
+            "score": 2572,
+            "time_seconds": 0.2983841896057129,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 9,
+            "score": 2572,
+            "time_seconds": 0.3002197742462158,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 10,
+            "score": 2572,
+            "time_seconds": 0.30449700355529785,
+            "programs_scheduled": 32
+          }
+        ],
+        "statistics": {
+          "best": 2572,
+          "worst": 2572,
+          "average": 2572.0,
+          "median": 2572,
+          "std_dev": 0.0,
+          "total_time": 3.0197105407714844,
+          "avg_time": 0.3019710540771484
+        }
+      },
+      "ls": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 2572,
+            "ls_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 34.63933706283569,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 2,
+            "ga_score": 2572,
+            "ls_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 35.7045955657959,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 3,
+            "ga_score": 2572,
+            "ls_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 32.113840103149414,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 4,
+            "ga_score": 2572,
+            "ls_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 31.40860152244568,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 5,
+            "ga_score": 2572,
+            "ls_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 31.898407459259033,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 6,
+            "ga_score": 2572,
+            "ls_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 33.15471887588501,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 7,
+            "ga_score": 2572,
+            "ls_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 32.566986083984375,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 8,
+            "ga_score": 2572,
+            "ls_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 32.47187519073486,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 9,
+            "ga_score": 2572,
+            "ls_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 32.618690967559814,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 10,
+            "ga_score": 2572,
+            "ls_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 33.75534796714783,
+            "programs_scheduled": 32
+          }
+        ],
+        "statistics": {
+          "best": 2572,
+          "worst": 2572,
+          "average": 2572.0,
+          "median": 2572,
+          "std_dev": 0.0,
+          "total_time": 330.334353685379,
+          "avg_time": 33.0334353685379,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "hybrid": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 2572,
+            "hybrid_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.3047294616699219,
+            "ls_time": 10.94844675064087,
+            "total_time": 11.253178834915161,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 2,
+            "ga_score": 2572,
+            "hybrid_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.3101832866668701,
+            "ls_time": 10.763258934020996,
+            "total_time": 11.073445558547974,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 3,
+            "ga_score": 2572,
+            "hybrid_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.2949104309082031,
+            "ls_time": 11.412787199020386,
+            "total_time": 11.707701206207275,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 4,
+            "ga_score": 2572,
+            "hybrid_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.29895853996276855,
+            "ls_time": 10.42432951927185,
+            "total_time": 10.72329068183899,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 5,
+            "ga_score": 2572,
+            "hybrid_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.3018155097961426,
+            "ls_time": 11.641021013259888,
+            "total_time": 11.942838668823242,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 6,
+            "ga_score": 2572,
+            "hybrid_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.3096323013305664,
+            "ls_time": 10.498173713684082,
+            "total_time": 10.807808637619019,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 7,
+            "ga_score": 2572,
+            "hybrid_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.30090928077697754,
+            "ls_time": 10.422668933868408,
+            "total_time": 10.723581314086914,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 8,
+            "ga_score": 2572,
+            "hybrid_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.28800296783447266,
+            "ls_time": 10.649276733398438,
+            "total_time": 10.937282085418701,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 9,
+            "ga_score": 2572,
+            "hybrid_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.2977910041809082,
+            "ls_time": 10.587864875793457,
+            "total_time": 10.885659456253052,
+            "programs_scheduled": 32
+          },
+          {
+            "run": 10,
+            "ga_score": 2572,
+            "hybrid_score": 2572,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.30887532234191895,
+            "ls_time": 10.19459843635559,
+            "total_time": 10.5034761428833,
+            "programs_scheduled": 32
+          }
+        ],
+        "statistics": {
+          "best": 2572,
+          "worst": 2572,
+          "average": 2572.0,
+          "median": 2572,
+          "std_dev": 0.0,
+          "total_time": 110.56038665771484,
+          "avg_time": 11.056038665771485,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "comparison_summary": {
+        "ls_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        },
+        "hybrid_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        }
+      }
+    },
+    {
+      "instance": "netherlands_tv_input",
+      "instance_path": "data\\input\\netherlands_tv_input.json",
+      "timestamp": "2026-05-14T14:51:30.304231",
+      "instance_info": {
+        "num_channels": 12,
+        "num_programs": 180
+      },
+      "ga": {
+        "runs": [
+          {
+            "run": 1,
+            "score": 2608,
+            "time_seconds": 0.3259739875793457,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 2,
+            "score": 2608,
+            "time_seconds": 0.3259596824645996,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 3,
+            "score": 2608,
+            "time_seconds": 0.32567262649536133,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 4,
+            "score": 2608,
+            "time_seconds": 0.32013750076293945,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 5,
+            "score": 2608,
+            "time_seconds": 0.3187415599822998,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 6,
+            "score": 2608,
+            "time_seconds": 0.33132362365722656,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 7,
+            "score": 2608,
+            "time_seconds": 0.3246278762817383,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 8,
+            "score": 2608,
+            "time_seconds": 0.32127952575683594,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 9,
+            "score": 2608,
+            "time_seconds": 0.3153691291809082,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 10,
+            "score": 2608,
+            "time_seconds": 0.3340628147125244,
+            "programs_scheduled": 35
+          }
+        ],
+        "statistics": {
+          "best": 2608,
+          "worst": 2608,
+          "average": 2608.0,
+          "median": 2608,
+          "std_dev": 0.0,
+          "total_time": 3.24491548538208,
+          "avg_time": 0.324491548538208
+        }
+      },
+      "ls": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 2608,
+            "ls_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 41.449894189834595,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 2,
+            "ga_score": 2608,
+            "ls_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 38.32469964027405,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 3,
+            "ga_score": 2608,
+            "ls_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 39.07134652137756,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 4,
+            "ga_score": 2608,
+            "ls_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 37.17701292037964,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 5,
+            "ga_score": 2608,
+            "ls_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 37.801740407943726,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 6,
+            "ga_score": 2608,
+            "ls_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 38.011311292648315,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 7,
+            "ga_score": 2608,
+            "ls_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 38.783820152282715,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 8,
+            "ga_score": 2608,
+            "ls_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 38.11508274078369,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 9,
+            "ga_score": 2608,
+            "ls_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 38.196133613586426,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 10,
+            "ga_score": 2608,
+            "ls_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 37.85580229759216,
+            "programs_scheduled": 35
+          }
+        ],
+        "statistics": {
+          "best": 2608,
+          "worst": 2608,
+          "average": 2608.0,
+          "median": 2608,
+          "std_dev": 0.0,
+          "total_time": 384.7887222766876,
+          "avg_time": 38.47887222766876,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "hybrid": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 2608,
+            "hybrid_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.33406996726989746,
+            "ls_time": 12.811817646026611,
+            "total_time": 13.145890235900879,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 2,
+            "ga_score": 2608,
+            "hybrid_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.35828542709350586,
+            "ls_time": 12.247600555419922,
+            "total_time": 12.605888843536377,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 3,
+            "ga_score": 2608,
+            "hybrid_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.3210883140563965,
+            "ls_time": 12.77932095527649,
+            "total_time": 13.100411653518677,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 4,
+            "ga_score": 2608,
+            "hybrid_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.3219020366668701,
+            "ls_time": 12.481115579605103,
+            "total_time": 12.803020238876343,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 5,
+            "ga_score": 2608,
+            "hybrid_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.32053041458129883,
+            "ls_time": 11.677599906921387,
+            "total_time": 11.998134136199951,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 6,
+            "ga_score": 2608,
+            "hybrid_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.33829832077026367,
+            "ls_time": 11.882760047912598,
+            "total_time": 12.221061706542969,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 7,
+            "ga_score": 2608,
+            "hybrid_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.32814693450927734,
+            "ls_time": 12.668610334396362,
+            "total_time": 12.996760129928589,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 8,
+            "ga_score": 2608,
+            "hybrid_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.3280518054962158,
+            "ls_time": 13.167302370071411,
+            "total_time": 13.495357036590576,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 9,
+            "ga_score": 2608,
+            "hybrid_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.3224830627441406,
+            "ls_time": 13.284043312072754,
+            "total_time": 13.60653018951416,
+            "programs_scheduled": 35
+          },
+          {
+            "run": 10,
+            "ga_score": 2608,
+            "hybrid_score": 2608,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.3337268829345703,
+            "ls_time": 12.097779512405396,
+            "total_time": 12.431509017944336,
+            "programs_scheduled": 35
+          }
+        ],
+        "statistics": {
+          "best": 2608,
+          "worst": 2608,
+          "average": 2608.0,
+          "median": 2608,
+          "std_dev": 0.0,
+          "total_time": 128.4081883430481,
+          "avg_time": 12.840818834304809,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "comparison_summary": {
+        "ls_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        },
+        "hybrid_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        }
+      }
+    },
+    {
+      "instance": "singapore_pw",
+      "instance_path": "data\\input\\singapore_pw.json",
+      "timestamp": "2026-05-14T15:00:06.823141",
+      "instance_info": {
+        "num_channels": 211,
+        "num_programs": 4158
+      },
+      "ga": {
+        "runs": [
+          {
+            "run": 1,
+            "score": 4327,
+            "time_seconds": 20.623671531677246,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 2,
+            "score": 4327,
+            "time_seconds": 21.513636589050293,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 3,
+            "score": 4327,
+            "time_seconds": 19.193966388702393,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 4,
+            "score": 4327,
+            "time_seconds": 19.51608896255493,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 5,
+            "score": 4327,
+            "time_seconds": 19.85583519935608,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 6,
+            "score": 4327,
+            "time_seconds": 19.612223148345947,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 7,
+            "score": 4327,
+            "time_seconds": 19.790887117385864,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 8,
+            "score": 4327,
+            "time_seconds": 19.617488145828247,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 9,
+            "score": 4327,
+            "time_seconds": 19.359068632125854,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 10,
+            "score": 4327,
+            "time_seconds": 19.531450986862183,
+            "programs_scheduled": 45
+          }
+        ],
+        "statistics": {
+          "best": 4327,
+          "worst": 4327,
+          "average": 4327.0,
+          "median": 4327,
+          "std_dev": 0.0,
+          "total_time": 198.61581230163574,
+          "avg_time": 19.861581230163573
+        }
+      },
+      "ls": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 4327,
+            "ls_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 60.05790328979492,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 2,
+            "ga_score": 4327,
+            "ls_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 60.09894895553589,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 3,
+            "ga_score": 4327,
+            "ls_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 60.139026165008545,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 4,
+            "ga_score": 4327,
+            "ls_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 60.26490497589111,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 5,
+            "ga_score": 4327,
+            "ls_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 60.13211727142334,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 6,
+            "ga_score": 4327,
+            "ls_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 60.2857232093811,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 7,
+            "ga_score": 4327,
+            "ls_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 60.130579233169556,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 8,
+            "ga_score": 4327,
+            "ls_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 60.042999267578125,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 9,
+            "ga_score": 4327,
+            "ls_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 60.12838530540466,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 10,
+            "ga_score": 4327,
+            "ls_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 60.30614686012268,
+            "programs_scheduled": 45
+          }
+        ],
+        "statistics": {
+          "best": 4327,
+          "worst": 4327,
+          "average": 4327.0,
+          "median": 4327,
+          "std_dev": 0.0,
+          "total_time": 601.5886533260345,
+          "avg_time": 60.158865332603455,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "hybrid": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 4327,
+            "hybrid_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 19.841071128845215,
+            "ls_time": 20.033962965011597,
+            "total_time": 39.875036001205444,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 2,
+            "ga_score": 4327,
+            "hybrid_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 19.795074224472046,
+            "ls_time": 22.34240484237671,
+            "total_time": 42.137481689453125,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 3,
+            "ga_score": 4327,
+            "hybrid_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 19.620678901672363,
+            "ls_time": 22.930591821670532,
+            "total_time": 42.55127429962158,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 4,
+            "ga_score": 4327,
+            "hybrid_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 19.959481239318848,
+            "ls_time": 21.964475870132446,
+            "total_time": 41.923959493637085,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 5,
+            "ga_score": 4327,
+            "hybrid_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 19.780765771865845,
+            "ls_time": 22.579219341278076,
+            "total_time": 42.359987020492554,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 6,
+            "ga_score": 4327,
+            "hybrid_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 19.515124559402466,
+            "ls_time": 21.450650453567505,
+            "total_time": 40.965776681900024,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 7,
+            "ga_score": 4327,
+            "hybrid_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 19.23602795600891,
+            "ls_time": 21.823278665542603,
+            "total_time": 41.05930829048157,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 8,
+            "ga_score": 4327,
+            "hybrid_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 19.327521800994873,
+            "ls_time": 21.879680633544922,
+            "total_time": 41.20720458030701,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 9,
+            "ga_score": 4327,
+            "hybrid_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 19.851457118988037,
+            "ls_time": 22.287911653518677,
+            "total_time": 42.13936996459961,
+            "programs_scheduled": 45
+          },
+          {
+            "run": 10,
+            "ga_score": 4327,
+            "hybrid_score": 4327,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 19.14676308631897,
+            "ls_time": 22.386188745498657,
+            "total_time": 41.53295350074768,
+            "programs_scheduled": 45
+          }
+        ],
+        "statistics": {
+          "best": 4327,
+          "worst": 4327,
+          "average": 4327.0,
+          "median": 4327,
+          "std_dev": 0.0,
+          "total_time": 415.75423979759216,
+          "avg_time": 41.575423979759215,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "comparison_summary": {
+        "ls_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        },
+        "hybrid_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        }
+      }
+    },
+    {
+      "instance": "spain_iptv",
+      "instance_path": "data\\input\\spain_iptv.json",
+      "timestamp": "2026-05-14T15:20:22.832130",
+      "instance_info": {
+        "num_channels": 269,
+        "num_programs": 4448
+      },
+      "ga": {
+        "runs": [
+          {
+            "run": 1,
+            "score": 4530,
+            "time_seconds": 68.62240099906921,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 2,
+            "score": 4530,
+            "time_seconds": 65.56894516944885,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 3,
+            "score": 4530,
+            "time_seconds": 65.70546865463257,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 4,
+            "score": 4530,
+            "time_seconds": 66.12408423423767,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 5,
+            "score": 4530,
+            "time_seconds": 65.7988510131836,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 6,
+            "score": 4530,
+            "time_seconds": 65.41129851341248,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 7,
+            "score": 4550,
+            "time_seconds": 65.9031822681427,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 8,
+            "score": 4550,
+            "time_seconds": 65.58775925636292,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 9,
+            "score": 4530,
+            "time_seconds": 65.56520652770996,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 10,
+            "score": 4530,
+            "time_seconds": 66.04563522338867,
+            "programs_scheduled": 47
+          }
+        ],
+        "statistics": {
+          "best": 4550,
+          "worst": 4530,
+          "average": 4534.0,
+          "median": 4530,
+          "std_dev": 8.0,
+          "total_time": 660.3343007564545,
+          "avg_time": 66.03343007564544
+        }
+      },
+      "ls": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 4530,
+            "ls_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 62.15400981903076,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 2,
+            "ga_score": 4530,
+            "ls_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 62.43431282043457,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 3,
+            "ga_score": 4530,
+            "ls_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 62.55649375915527,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 4,
+            "ga_score": 4530,
+            "ls_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 63.45578074455261,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 5,
+            "ga_score": 4530,
+            "ls_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 63.74976921081543,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 6,
+            "ga_score": 4530,
+            "ls_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 63.646623849868774,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 7,
+            "ga_score": 4550,
+            "ls_score": 4530,
+            "improvement": -20,
+            "improvement_pct": -0.43956043956043955,
+            "time_seconds": 63.62317609786987,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 8,
+            "ga_score": 4550,
+            "ls_score": 4530,
+            "improvement": -20,
+            "improvement_pct": -0.43956043956043955,
+            "time_seconds": 63.63732933998108,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 9,
+            "ga_score": 4530,
+            "ls_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 63.76732039451599,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 10,
+            "ga_score": 4530,
+            "ls_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 64.13084268569946,
+            "programs_scheduled": 47
+          }
+        ],
+        "statistics": {
+          "best": 4530,
+          "worst": 4530,
+          "average": 4530.0,
+          "median": 4530,
+          "std_dev": 0.0,
+          "total_time": 633.1792130470276,
+          "avg_time": 63.31792130470276,
+          "improvement_avg": -4.0,
+          "improvement_avg_pct": -0.0879120879120879,
+          "improvement_best": 0,
+          "improvement_worst": -20,
+          "improved_runs": 0
+        }
+      },
+      "hybrid": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 4530,
+            "hybrid_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 68.29651880264282,
+            "ls_time": 24.87330174446106,
+            "total_time": 93.1698215007782,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 2,
+            "ga_score": 4530,
+            "hybrid_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 67.16601395606995,
+            "ls_time": 24.813798904418945,
+            "total_time": 91.97981429100037,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 3,
+            "ga_score": 4530,
+            "hybrid_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 67.27054595947266,
+            "ls_time": 24.831978797912598,
+            "total_time": 92.10252642631531,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 4,
+            "ga_score": 4530,
+            "hybrid_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 67.89844012260437,
+            "ls_time": 25.015519857406616,
+            "total_time": 92.91396141052246,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 5,
+            "ga_score": 4530,
+            "hybrid_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 67.68642616271973,
+            "ls_time": 23.195830821990967,
+            "total_time": 90.88225817680359,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 6,
+            "ga_score": 4530,
+            "hybrid_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 70.22790479660034,
+            "ls_time": 24.384567260742188,
+            "total_time": 94.612473487854,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 7,
+            "ga_score": 4530,
+            "hybrid_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 66.65839648246765,
+            "ls_time": 24.661929607391357,
+            "total_time": 91.32032775878906,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 8,
+            "ga_score": 4530,
+            "hybrid_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 66.36734199523926,
+            "ls_time": 25.45941710472107,
+            "total_time": 91.82676124572754,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 9,
+            "ga_score": 4530,
+            "hybrid_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 66.46675610542297,
+            "ls_time": 24.048162698745728,
+            "total_time": 90.51492023468018,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 10,
+            "ga_score": 4530,
+            "hybrid_score": 4530,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 66.04959392547607,
+            "ls_time": 24.079773664474487,
+            "total_time": 90.12936925888062,
+            "programs_scheduled": 47
+          }
+        ],
+        "statistics": {
+          "best": 4530,
+          "worst": 4530,
+          "average": 4530.0,
+          "median": 4530,
+          "std_dev": 0.0,
+          "total_time": 919.4542608261108,
+          "avg_time": 91.94542608261108,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "comparison_summary": {
+        "ls_vs_ga": {
+          "best_improvement": -20,
+          "avg_improvement": -4.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": -0.08822232024702249
+        },
+        "hybrid_vs_ga": {
+          "best_improvement": -20,
+          "avg_improvement": -4.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": -0.08822232024702249
+        }
+      }
+    },
+    {
+      "instance": "toy",
+      "instance_path": "data\\input\\toy.json",
+      "timestamp": "2026-05-14T15:57:15.831556",
+      "instance_info": {
+        "num_channels": 3,
+        "num_programs": 5
+      },
+      "ga": {
+        "runs": [
+          {
+            "run": 1,
+            "score": 380,
+            "time_seconds": 0.04274892807006836,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 2,
+            "score": 380,
+            "time_seconds": 0.03861260414123535,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 3,
+            "score": 380,
+            "time_seconds": 0.04066729545593262,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 4,
+            "score": 380,
+            "time_seconds": 0.03869032859802246,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 5,
+            "score": 380,
+            "time_seconds": 0.03845548629760742,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 6,
+            "score": 380,
+            "time_seconds": 0.04308748245239258,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 7,
+            "score": 380,
+            "time_seconds": 0.03790402412414551,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 8,
+            "score": 380,
+            "time_seconds": 0.037961721420288086,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 9,
+            "score": 380,
+            "time_seconds": 0.0382993221282959,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 10,
+            "score": 380,
+            "time_seconds": 0.037153005599975586,
+            "programs_scheduled": 4
+          }
+        ],
+        "statistics": {
+          "best": 380,
+          "worst": 380,
+          "average": 380.0,
+          "median": 380,
+          "std_dev": 0.0,
+          "total_time": 0.39565515518188477,
+          "avg_time": 0.039565515518188474
+        }
+      },
+      "ls": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 380,
+            "ls_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 0.16213417053222656,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 2,
+            "ga_score": 380,
+            "ls_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 0.16870522499084473,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 3,
+            "ga_score": 380,
+            "ls_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 0.1759653091430664,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 4,
+            "ga_score": 380,
+            "ls_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 0.17925739288330078,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 5,
+            "ga_score": 380,
+            "ls_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 0.17154216766357422,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 6,
+            "ga_score": 380,
+            "ls_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 0.17634844779968262,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 7,
+            "ga_score": 380,
+            "ls_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 0.17521238327026367,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 8,
+            "ga_score": 380,
+            "ls_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 0.18333721160888672,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 9,
+            "ga_score": 380,
+            "ls_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 0.17476844787597656,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 10,
+            "ga_score": 380,
+            "ls_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 0.175309419631958,
+            "programs_scheduled": 4
+          }
+        ],
+        "statistics": {
+          "best": 380,
+          "worst": 380,
+          "average": 380.0,
+          "median": 380,
+          "std_dev": 0.0,
+          "total_time": 1.7446613311767578,
+          "avg_time": 0.17446613311767578,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "hybrid": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 380,
+            "hybrid_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.04036140441894531,
+            "ls_time": 0.05642533302307129,
+            "total_time": 0.09678816795349121,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 2,
+            "ga_score": 380,
+            "hybrid_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.04137134552001953,
+            "ls_time": 0.05669713020324707,
+            "total_time": 0.09806990623474121,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 3,
+            "ga_score": 380,
+            "hybrid_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.03951549530029297,
+            "ls_time": 0.05306673049926758,
+            "total_time": 0.09258413314819336,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 4,
+            "ga_score": 380,
+            "hybrid_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.03786945343017578,
+            "ls_time": 0.055963993072509766,
+            "total_time": 0.09383440017700195,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 5,
+            "ga_score": 380,
+            "hybrid_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.03998303413391113,
+            "ls_time": 0.06141829490661621,
+            "total_time": 0.10140323638916016,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 6,
+            "ga_score": 380,
+            "hybrid_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.03711962699890137,
+            "ls_time": 0.054013729095458984,
+            "total_time": 0.09113454818725586,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 7,
+            "ga_score": 380,
+            "hybrid_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.0431976318359375,
+            "ls_time": 0.05667901039123535,
+            "total_time": 0.09987783432006836,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 8,
+            "ga_score": 380,
+            "hybrid_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.040204763412475586,
+            "ls_time": 0.05750846862792969,
+            "total_time": 0.09771442413330078,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 9,
+            "ga_score": 380,
+            "hybrid_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.039159297943115234,
+            "ls_time": 0.05344724655151367,
+            "total_time": 0.09260749816894531,
+            "programs_scheduled": 4
+          },
+          {
+            "run": 10,
+            "ga_score": 380,
+            "hybrid_score": 380,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.04195833206176758,
+            "ls_time": 0.05807757377624512,
+            "total_time": 0.1000368595123291,
+            "programs_scheduled": 4
+          }
+        ],
+        "statistics": {
+          "best": 380,
+          "worst": 380,
+          "average": 380.0,
+          "median": 380,
+          "std_dev": 0.0,
+          "total_time": 0.9659366607666016,
+          "avg_time": 0.09659366607666016,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "comparison_summary": {
+        "ls_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        },
+        "hybrid_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        }
+      }
+    },
+    {
+      "instance": "uk_iptv",
+      "instance_path": "data\\input\\uk_iptv.json",
+      "timestamp": "2026-05-14T15:57:19.031186",
+      "instance_info": {
+        "num_channels": 903,
+        "num_programs": 12441
+      },
+      "ga": {
+        "runs": [
+          {
+            "run": 1,
+            "score": 5077,
+            "time_seconds": 2650.509064912796,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 2,
+            "score": 5077,
+            "time_seconds": 903.0570285320282,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 3,
+            "score": 5077,
+            "time_seconds": 908.410322189331,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 4,
+            "score": 5077,
+            "time_seconds": 941.6453659534454,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 5,
+            "score": 5077,
+            "time_seconds": 1342.814579963684,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 6,
+            "score": 5077,
+            "time_seconds": 1667.2710118293762,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 7,
+            "score": 5077,
+            "time_seconds": 959.3084516525269,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 8,
+            "score": 5077,
+            "time_seconds": 692.7821321487427,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 9,
+            "score": 5077,
+            "time_seconds": 729.848680973053,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 10,
+            "score": 5077,
+            "time_seconds": 702.4927487373352,
+            "programs_scheduled": 47
+          }
+        ],
+        "statistics": {
+          "best": 5077,
+          "worst": 5077,
+          "average": 5077.0,
+          "median": 5077,
+          "std_dev": 0.0,
+          "total_time": 11498.14118051529,
+          "avg_time": 1149.814118051529
+        }
+      },
+      "ls": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 5077,
+            "ls_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 97614.30693006516,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 2,
+            "ga_score": 5077,
+            "ls_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 949.454508304596,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 3,
+            "ga_score": 5077,
+            "ls_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 932.2171928882599,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 4,
+            "ga_score": 5077,
+            "ls_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 944.2386484146118,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 5,
+            "ga_score": 5077,
+            "ls_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 949.2483224868774,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 6,
+            "ga_score": 5077,
+            "ls_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 132735.59838175774,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 7,
+            "ga_score": 5077,
+            "ls_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 715.0627768039703,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 8,
+            "ga_score": 5077,
+            "ls_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 666.3300597667694,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 9,
+            "ga_score": 5077,
+            "ls_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 672.5180294513702,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 10,
+            "ga_score": 5077,
+            "ls_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 666.8037745952606,
+            "programs_scheduled": 47
+          }
+        ],
+        "statistics": {
+          "best": 5077,
+          "worst": 5077,
+          "average": 5077.0,
+          "median": 5077,
+          "std_dev": 0.0,
+          "total_time": 236845.78045868874,
+          "avg_time": 23684.578045868875,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "hybrid": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 5077,
+            "hybrid_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 689.4106504917145,
+            "ls_time": 17.999192476272583,
+            "total_time": 707.4098443984985,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 2,
+            "ga_score": 5077,
+            "hybrid_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 689.7525935173035,
+            "ls_time": 17.88331413269043,
+            "total_time": 707.6359088420868,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 3,
+            "ga_score": 5077,
+            "hybrid_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 701.4568676948547,
+            "ls_time": 18.496213674545288,
+            "total_time": 719.9530823230743,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 4,
+            "ga_score": 5077,
+            "hybrid_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 707.5219187736511,
+            "ls_time": 18.090861797332764,
+            "total_time": 725.6127822399139,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 5,
+            "ga_score": 5077,
+            "hybrid_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 699.3069400787354,
+            "ls_time": 18.458341121673584,
+            "total_time": 717.7652833461761,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 6,
+            "ga_score": 5077,
+            "hybrid_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 700.4533088207245,
+            "ls_time": 18.585676670074463,
+            "total_time": 719.0389866828918,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 7,
+            "ga_score": 5077,
+            "hybrid_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 771.9311146736145,
+            "ls_time": 26.052960872650146,
+            "total_time": 797.9840767383575,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 8,
+            "ga_score": 5077,
+            "hybrid_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 899.0442500114441,
+            "ls_time": 25.154160261154175,
+            "total_time": 924.1984114646912,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 9,
+            "ga_score": 5077,
+            "hybrid_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 904.4239840507507,
+            "ls_time": 25.338268756866455,
+            "total_time": 929.7622554302216,
+            "programs_scheduled": 47
+          },
+          {
+            "run": 10,
+            "ga_score": 5077,
+            "hybrid_score": 5077,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 903.2297451496124,
+            "ls_time": 25.463310956954956,
+            "total_time": 928.6930572986603,
+            "programs_scheduled": 47
+          }
+        ],
+        "statistics": {
+          "best": 5077,
+          "worst": 5077,
+          "average": 5077.0,
+          "median": 5077,
+          "std_dev": 0.0,
+          "total_time": 7878.055451869965,
+          "avg_time": 787.8055451869965,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "comparison_summary": {
+        "ls_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        },
+        "hybrid_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        }
+      }
+    },
+    {
+      "instance": "uk_tv_input",
+      "instance_path": "data\\input\\uk_tv_input.json",
+      "timestamp": "2026-05-17T15:07:41.081860",
+      "instance_info": {
+        "num_channels": 120,
+        "num_programs": 1621
+      },
+      "ga": {
+        "runs": [
+          {
+            "run": 1,
+            "score": 2167,
+            "time_seconds": 0.8251025676727295,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 2,
+            "score": 2167,
+            "time_seconds": 0.8227896690368652,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 3,
+            "score": 2167,
+            "time_seconds": 0.8487534523010254,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 4,
+            "score": 2167,
+            "time_seconds": 0.8269736766815186,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 5,
+            "score": 2167,
+            "time_seconds": 0.8608748912811279,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 6,
+            "score": 2167,
+            "time_seconds": 0.8302500247955322,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 7,
+            "score": 2159,
+            "time_seconds": 0.8197321891784668,
+            "programs_scheduled": 27
+          },
+          {
+            "run": 8,
+            "score": 2159,
+            "time_seconds": 0.8576815128326416,
+            "programs_scheduled": 27
+          },
+          {
+            "run": 9,
+            "score": 2167,
+            "time_seconds": 0.8518497943878174,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 10,
+            "score": 2167,
+            "time_seconds": 0.901803731918335,
+            "programs_scheduled": 26
+          }
+        ],
+        "statistics": {
+          "best": 2167,
+          "worst": 2159,
+          "average": 2165.4,
+          "median": 2167,
+          "std_dev": 3.2,
+          "total_time": 8.447238206863403,
+          "avg_time": 0.8447238206863403
+        }
+      },
+      "ls": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 2167,
+            "ls_score": 2159,
+            "improvement": -8,
+            "improvement_pct": -0.36917397323488693,
+            "time_seconds": 25.45868158340454,
+            "programs_scheduled": 27
+          },
+          {
+            "run": 2,
+            "ga_score": 2167,
+            "ls_score": 2159,
+            "improvement": -8,
+            "improvement_pct": -0.36917397323488693,
+            "time_seconds": 24.61139965057373,
+            "programs_scheduled": 27
+          },
+          {
+            "run": 3,
+            "ga_score": 2167,
+            "ls_score": 2159,
+            "improvement": -8,
+            "improvement_pct": -0.36917397323488693,
+            "time_seconds": 24.047157287597656,
+            "programs_scheduled": 27
+          },
+          {
+            "run": 4,
+            "ga_score": 2167,
+            "ls_score": 2159,
+            "improvement": -8,
+            "improvement_pct": -0.36917397323488693,
+            "time_seconds": 24.276389122009277,
+            "programs_scheduled": 27
+          },
+          {
+            "run": 5,
+            "ga_score": 2167,
+            "ls_score": 2159,
+            "improvement": -8,
+            "improvement_pct": -0.36917397323488693,
+            "time_seconds": 24.45269751548767,
+            "programs_scheduled": 27
+          },
+          {
+            "run": 6,
+            "ga_score": 2167,
+            "ls_score": 2159,
+            "improvement": -8,
+            "improvement_pct": -0.36917397323488693,
+            "time_seconds": 24.49864673614502,
+            "programs_scheduled": 27
+          },
+          {
+            "run": 7,
+            "ga_score": 2159,
+            "ls_score": 2159,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 23.415566444396973,
+            "programs_scheduled": 27
+          },
+          {
+            "run": 8,
+            "ga_score": 2159,
+            "ls_score": 2159,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 25.058637380599976,
+            "programs_scheduled": 27
+          },
+          {
+            "run": 9,
+            "ga_score": 2167,
+            "ls_score": 2159,
+            "improvement": -8,
+            "improvement_pct": -0.36917397323488693,
+            "time_seconds": 25.01544713973999,
+            "programs_scheduled": 27
+          },
+          {
+            "run": 10,
+            "ga_score": 2167,
+            "ls_score": 2159,
+            "improvement": -8,
+            "improvement_pct": -0.36917397323488693,
+            "time_seconds": 24.8229923248291,
+            "programs_scheduled": 27
+          }
+        ],
+        "statistics": {
+          "best": 2159,
+          "worst": 2159,
+          "average": 2159.0,
+          "median": 2159,
+          "std_dev": 0.0,
+          "total_time": 245.65910172462463,
+          "avg_time": 24.565910172462463,
+          "improvement_avg": -6.4,
+          "improvement_avg_pct": -0.29533917858790953,
+          "improvement_best": 0,
+          "improvement_worst": -8,
+          "improved_runs": 0
+        }
+      },
+      "hybrid": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 2167,
+            "hybrid_score": 2167,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.8660426139831543,
+            "ls_time": 7.008852243423462,
+            "total_time": 7.8748955726623535,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 2,
+            "ga_score": 2167,
+            "hybrid_score": 2167,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.8561902046203613,
+            "ls_time": 7.29428768157959,
+            "total_time": 8.150479078292847,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 3,
+            "ga_score": 2167,
+            "hybrid_score": 2167,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.9227581024169922,
+            "ls_time": 6.900856256484985,
+            "total_time": 7.823615550994873,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 4,
+            "ga_score": 2167,
+            "hybrid_score": 2167,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.8462159633636475,
+            "ls_time": 7.066813230514526,
+            "total_time": 7.913030624389648,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 5,
+            "ga_score": 2167,
+            "hybrid_score": 2167,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.8613932132720947,
+            "ls_time": 6.933523654937744,
+            "total_time": 7.794917821884155,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 6,
+            "ga_score": 2167,
+            "hybrid_score": 2167,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.8185515403747559,
+            "ls_time": 7.343313932418823,
+            "total_time": 8.161866664886475,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 7,
+            "ga_score": 2167,
+            "hybrid_score": 2167,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.9104063510894775,
+            "ls_time": 6.883802652359009,
+            "total_time": 7.794210195541382,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 8,
+            "ga_score": 2167,
+            "hybrid_score": 2167,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.863933801651001,
+            "ls_time": 7.148061037063599,
+            "total_time": 8.011996269226074,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 9,
+            "ga_score": 2167,
+            "hybrid_score": 2167,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.9041178226470947,
+            "ls_time": 7.179885625839233,
+            "total_time": 8.084004163742065,
+            "programs_scheduled": 26
+          },
+          {
+            "run": 10,
+            "ga_score": 2167,
+            "hybrid_score": 2167,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 0.8384056091308594,
+            "ls_time": 6.9471025466918945,
+            "total_time": 7.785508871078491,
+            "programs_scheduled": 26
+          }
+        ],
+        "statistics": {
+          "best": 2167,
+          "worst": 2167,
+          "average": 2167.0,
+          "median": 2167,
+          "std_dev": 0.0,
+          "total_time": 79.39605975151062,
+          "avg_time": 7.939605975151062,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "comparison_summary": {
+        "ls_vs_ga": {
+          "best_improvement": -8,
+          "avg_improvement": -6.400000000000091,
+          "worst_improvement": 0,
+          "avg_improvement_pct": -0.2955574027893272
+        },
+        "hybrid_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 1.599999999999909,
+          "worst_improvement": 8,
+          "avg_improvement_pct": 0.07388935069732655
+        }
+      }
+    },
+    {
+      "instance": "usa_tv_input",
+      "instance_path": "data\\input\\usa_tv_input.json",
+      "timestamp": "2026-05-17T15:13:14.685023",
+      "instance_info": {
+        "num_channels": 1100,
+        "num_programs": 16277
+      },
+      "ga": {
+        "runs": [
+          {
+            "run": 1,
+            "score": 3573,
+            "time_seconds": 32.86686611175537,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 2,
+            "score": 3573,
+            "time_seconds": 33.39378261566162,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 3,
+            "score": 3573,
+            "time_seconds": 33.23747444152832,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 4,
+            "score": 3573,
+            "time_seconds": 33.1571524143219,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 5,
+            "score": 3573,
+            "time_seconds": 34.047346115112305,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 6,
+            "score": 3573,
+            "time_seconds": 35.09727144241333,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 7,
+            "score": 3573,
+            "time_seconds": 34.26471972465515,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 8,
+            "score": 3573,
+            "time_seconds": 34.987290143966675,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 9,
+            "score": 3573,
+            "time_seconds": 34.40638709068298,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 10,
+            "score": 3573,
+            "time_seconds": 35.248011112213135,
+            "programs_scheduled": 36
+          }
+        ],
+        "statistics": {
+          "best": 3573,
+          "worst": 3573,
+          "average": 3573.0,
+          "median": 3573,
+          "std_dev": 0.0,
+          "total_time": 340.7521002292633,
+          "avg_time": 34.07521002292633
+        }
+      },
+      "ls": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 3573,
+            "ls_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 78.07996273040771,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 2,
+            "ga_score": 3573,
+            "ls_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 76.51133370399475,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 3,
+            "ga_score": 3573,
+            "ls_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 78.0241322517395,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 4,
+            "ga_score": 3573,
+            "ls_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 77.41640329360962,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 5,
+            "ga_score": 3573,
+            "ls_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 77.03594398498535,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 6,
+            "ga_score": 3573,
+            "ls_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 75.80082488059998,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 7,
+            "ga_score": 3573,
+            "ls_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 76.69793963432312,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 8,
+            "ga_score": 3573,
+            "ls_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 76.4540376663208,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 9,
+            "ga_score": 3573,
+            "ls_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 77.26136207580566,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 10,
+            "ga_score": 3573,
+            "ls_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "time_seconds": 79.96523809432983,
+            "programs_scheduled": 36
+          }
+        ],
+        "statistics": {
+          "best": 3573,
+          "worst": 3573,
+          "average": 3573.0,
+          "median": 3573,
+          "std_dev": 0.0,
+          "total_time": 773.2489244937897,
+          "avg_time": 77.32489244937896,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "hybrid": {
+        "runs": [
+          {
+            "run": 1,
+            "ga_score": 3573,
+            "hybrid_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 31.161302089691162,
+            "ls_time": 14.70650601387024,
+            "total_time": 45.86780881881714,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 2,
+            "ga_score": 3573,
+            "hybrid_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 31.82076668739319,
+            "ls_time": 14.375308990478516,
+            "total_time": 46.19607710838318,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 3,
+            "ga_score": 3573,
+            "hybrid_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 31.522770643234253,
+            "ls_time": 14.986657619476318,
+            "total_time": 46.509429693222046,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 4,
+            "ga_score": 3573,
+            "hybrid_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 31.988157510757446,
+            "ls_time": 15.245984315872192,
+            "total_time": 47.234143018722534,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 5,
+            "ga_score": 3573,
+            "hybrid_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 31.891120195388794,
+            "ls_time": 14.314123630523682,
+            "total_time": 46.20524525642395,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 6,
+            "ga_score": 3573,
+            "hybrid_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 31.746861934661865,
+            "ls_time": 13.63219141960144,
+            "total_time": 45.3790545463562,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 7,
+            "ga_score": 3573,
+            "hybrid_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 31.45676612854004,
+            "ls_time": 14.52591609954834,
+            "total_time": 45.98268365859985,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 8,
+            "ga_score": 3573,
+            "hybrid_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 31.440910816192627,
+            "ls_time": 14.429837942123413,
+            "total_time": 45.870749950408936,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 9,
+            "ga_score": 3573,
+            "hybrid_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 31.543923139572144,
+            "ls_time": 13.999884366989136,
+            "total_time": 45.54380917549133,
+            "programs_scheduled": 36
+          },
+          {
+            "run": 10,
+            "ga_score": 3573,
+            "hybrid_score": 3573,
+            "improvement": 0,
+            "improvement_pct": 0.0,
+            "ga_time": 32.251989126205444,
+            "ls_time": 15.228833675384521,
+            "total_time": 47.48082423210144,
+            "programs_scheduled": 36
+          }
+        ],
+        "statistics": {
+          "best": 3573,
+          "worst": 3573,
+          "average": 3573.0,
+          "median": 3573,
+          "std_dev": 0.0,
+          "total_time": 462.27133345603943,
+          "avg_time": 46.227133345603946,
+          "improvement_avg": 0.0,
+          "improvement_avg_pct": 0.0,
+          "improvement_best": 0,
+          "improvement_worst": 0,
+          "improved_runs": 0
+        }
+      },
+      "comparison_summary": {
+        "ls_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        },
+        "hybrid_vs_ga": {
+          "best_improvement": 0,
+          "avg_improvement": 0.0,
+          "worst_improvement": 0,
+          "avg_improvement_pct": 0.0
+        }
+      }
+    }
+  ]
+}
