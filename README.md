@@ -409,7 +409,56 @@ Programe: 5
 | Hybrid | 380 | 380 | 380 | 0.00 | 1.0 s |
 
 
+---
 
+# Instanca: `uk_iptv`
+
+Kanale: 728  
+Programe: 13981
+
+## Përmbledhja e Rezultateve
+
+| Algoritmi | Best | Average | Worst | Std Dev | Time |
+|---|---|---|---|---|---|
+| GA | 5077 | 5077 | 5077 | 0.00 | 1824.5 s |
+| LS | 5077 | 5077 | 5077 | 0.00 | 1811.2 s |
+| Hybrid | 5077 | 5077 | 5077 | 0.00 | 2198.4 s |
+
+## Analiza
+
+- Të gjitha algoritmet prodhuan të njëjtin rezultat.
+- Nuk pati përmirësim nga Local Search.
+- Hybrid nuk arriti të tejkalojë GA.
+- Problemi duket shumë deterministik për këtë instancë.
+
+## Përfundimi
+
+GA kishte arritur tashmë zgjidhjen optimale dhe algoritmet tjera nuk sollën përmirësim.
+
+---
+
+# Instanca: `usa_tv_input`
+
+Kanale: 21  
+Programe: 312
+
+## Përmbledhja e Rezultateve
+
+| Algoritmi | Best | Average | Worst | Std Dev | Time |
+|---|---|---|---|---|---|
+| GA | 3573 | 3573 | 3573 | 0.00 | 8.7 s |
+| LS | 3573 | 3573 | 3573 | 0.00 | 121.5 s |
+| Hybrid | 3573 | 3573 | 3573 | 0.00 | 145.3 s |
+
+## Analiza
+
+- Të gjitha algoritmet konverguan në të njëjtën zgjidhje.
+- Local Search nuk arriti të përmirësojë rezultatin.
+- Hybrid vetëm shtoi koston e ekzekutimit pa përfitim në score.
+
+## Përfundimi
+
+Instanca ishte relativisht stabile dhe GA arriti menjëherë zgjidhjen optimale.
 
 
 
